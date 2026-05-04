@@ -1,0 +1,21 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Moved the Acme Partner Onboarding meeting to 3:00 PM on Apr 24.",
+  "task_id": "CT-MT-3-001",
+  "template_id": "CT-MT-3",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "date": "Apr 24",
+        "id": "EVT-ct-target-CT_MT_3_001",
+        "time": "15:00",
+        "title": "Acme Partner Onboarding"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

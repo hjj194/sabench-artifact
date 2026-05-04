@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "I found two \u201cBrightlane launch contact\u201d emails, one from riley@client.com and one from ops@client.com. Which one should I reply to?",
+  "task_id": "E-AB-2-002",
+  "template_id": "E-AB-2",
+  "tool_calls": []
+}

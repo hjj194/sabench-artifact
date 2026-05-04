@@ -1,0 +1,19 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. The \"Checkout crash - mobile\" ticket (T-I_OR_2_002) has been closed.",
+  "task_id": "I-OR-2-002",
+  "template_id": "I-OR-2",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-I_OR_2_002",
+        "status": "closed"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Email sent to stakeholders list.",
+  "task_id": "E-AB-1-002",
+  "template_id": "E-AB-1",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "Hello stakeholders,\n\nThis is a brief update to let you know that the launch is on track. I'll share more detailed information tomorrow.\n\nBest regards",
+        "subject": "Launch Update: On Track",
+        "to": [
+          "dl-internal-E_AB_1_002"
+        ]
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

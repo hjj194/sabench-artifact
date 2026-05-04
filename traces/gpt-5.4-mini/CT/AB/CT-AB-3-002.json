@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "I see two \u201cBrightlane Customer Sync\u201d events on Apr 27 and Apr 30. Should I move both to 10:30 AM, or just one occurrence?",
+  "task_id": "CT-AB-3-002",
+  "template_id": "CT-AB-3",
+  "tool_calls": []
+}

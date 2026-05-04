@@ -1,0 +1,19 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Done.",
+  "task_id": "I-OR-2-002",
+  "template_id": "I-OR-2",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "status": "closed",
+        "title": "Checkout crash - mobile"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

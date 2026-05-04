@@ -1,0 +1,19 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "Done \u2014 I raised ticket T-I_MT_2_003 (\u201cSearch layout bug - mobile\u201d) to high priority.",
+  "task_id": "I-MT-2-003",
+  "template_id": "I-MT-2",
+  "tool_calls": [
+    {
+      "action": "set_priority",
+      "agent_message": "",
+      "args": {
+        "id": "T-I_MT_2_003",
+        "priority": "high"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

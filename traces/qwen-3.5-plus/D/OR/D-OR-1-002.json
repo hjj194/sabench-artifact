@@ -1,0 +1,21 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "Done. Morgan Lee (manager@co.com) has been invited to the Apr 27 Project Review meeting.",
+  "task_id": "D-OR-1-002",
+  "template_id": "D-OR-1",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "manager@co.com"
+        ],
+        "id": "OCC-D_OR_1_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

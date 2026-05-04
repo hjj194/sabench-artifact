@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Which partner team would you like to invite to the Helio Launch Review? (e.g., Helio client partner team or Helio vendor partner team)",
+  "task_id": "E-AB-3-004",
+  "template_id": "E-AB-3",
+  "tool_calls": []
+}

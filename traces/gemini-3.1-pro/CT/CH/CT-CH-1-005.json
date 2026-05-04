@@ -1,0 +1,29 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have closed the \"Settings save bug - mobile\" ticket as you requested.",
+  "task_id": "CT-CH-1-005",
+  "template_id": "CT-CH-1",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Settings save bug"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "entity_id": "T-CT_CH_1_005",
+        "status": "closed"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

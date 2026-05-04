@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. The Apr 22 Weekly Standup has been canceled.",
+  "task_id": "D-AB-1-004",
+  "template_id": "D-AB-1",
+  "tool_calls": [
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "comment_text": "Canceled to focus on vendor handoff",
+        "id": "STD-occ-D_AB_1_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

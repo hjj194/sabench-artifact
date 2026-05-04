@@ -1,0 +1,20 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. Scheduled \"Personal follow-up: Login Loop follow-up\" for Apr 29, 2026 at 9 AM (30 minutes).",
+  "task_id": "CT-OR-2-004",
+  "template_id": "CT-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "duration": 30,
+        "time": "Apr 29, 2026 at 9 AM",
+        "title": "Personal follow-up: Login Loop follow-up"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

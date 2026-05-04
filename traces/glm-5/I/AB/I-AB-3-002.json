@@ -1,0 +1,7 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "I see two contract emails from Alice at the vendor:\n1. \"Contract - Version A\" (Apr 21 09:00)\n2. \"Contract - Version B\" (Apr 21 15:00)\n\nWhich one would you like me to forward to Priya Nair?",
+  "task_id": "I-AB-3-002",
+  "template_id": "I-AB-3",
+  "tool_calls": []
+}

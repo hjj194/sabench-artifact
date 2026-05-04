@@ -1,0 +1,18 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "There are two tickets titled \"API timeout issue\". Which one should I assign to Priya Nair?\n- **T-A-I_AB_2_004** (High priority, currently assigned to Alice Chen)\n- **T-B-I_AB_2_004** (Medium priority, currently assigned to Bob Smith)",
+  "task_id": "I-AB-2-004",
+  "template_id": "I-AB-2",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "API timeout issue"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

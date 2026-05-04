@@ -1,0 +1,39 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Ticket created successfully with high priority.",
+  "task_id": "CT-OR-3-001",
+  "template_id": "CT-OR-3",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-CT_OR_3_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "API Timeout request"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "priority": "high",
+        "title": "API Timeout request from the API timeout request email"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

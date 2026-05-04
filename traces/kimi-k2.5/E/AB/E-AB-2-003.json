@@ -1,0 +1,28 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": " I see two emails with the subject \"Northstar launch contact\":\n1. From **sam@partner.com** (Sam Rivera) at Apr 21 09:00\n2. From **ops@client.com** at Apr 21 09:10\n\nWhich one would you like me to reply to?",
+  "task_id": "E-AB-2-003",
+  "template_id": "E-AB-2",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ext-a-E_AB_2_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ext-b-E_AB_2_003"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "Which \u201cNorthstar launch contact\u201d email should I reply to \u2014 the one from sam@partner.com or the one from ops@client.com?",
+  "task_id": "E-AB-2-003",
+  "template_id": "E-AB-2",
+  "tool_calls": []
+}

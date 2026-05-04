@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "What would you like to say in your reply to Alice's email?",
+  "task_id": "D-MT-2-002",
+  "template_id": "D-MT-2",
+  "tool_calls": []
+}

@@ -1,0 +1,23 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "The ticket **\"Checkout crash - mobile\" (T-CT_CH_1_002)** has been closed.",
+  "task_id": "CT-CH-1-002",
+  "template_id": "CT-CH-1",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "User requested closing the mobile checkout crash ticket"
+        },
+        "id": "T-CT_CH_1_002",
+        "status": "closed"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

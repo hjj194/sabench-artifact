@@ -1,0 +1,21 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. I've invited the Helio vendor partner team (ops@vendor.com, support@vendor.com) to the Helio Launch Review event on Apr 29 at 13:00.",
+  "task_id": "E-AB-3-004",
+  "template_id": "E-AB-3",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "entity_id": "EVT-E_AB_3_004",
+        "to": [
+          "dl-partner-E_AB_3_004"
+        ]
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

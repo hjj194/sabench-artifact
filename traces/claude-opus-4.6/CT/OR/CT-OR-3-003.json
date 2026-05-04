@@ -1,0 +1,30 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Done. Created a high priority ticket titled \"Data Export request\" based on the email from Sam Rivera.",
+  "task_id": "CT-OR-3-003",
+  "template_id": "CT-OR-3",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-CT_OR_3_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "description": "Data export request from Sam Rivera (sam@partner.com), received Apr 21 14:00. Reference email: e-ct-CT_OR_3_003.",
+        "priority": "high",
+        "title": "Data Export request"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

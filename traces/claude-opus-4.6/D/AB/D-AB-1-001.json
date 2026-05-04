@@ -1,0 +1,22 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "The Apr 22 Weekly Standup occurrence has been cancelled. The remaining occurrences (Apr 29 and May 6) are unaffected.",
+  "task_id": "D-AB-1-001",
+  "template_id": "D-AB-1",
+  "tool_calls": [
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "User requested cancellation of the Apr 22 Weekly Standup occurrence"
+        },
+        "id": "STD-occ-D_AB_1_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

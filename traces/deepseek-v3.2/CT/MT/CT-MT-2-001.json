@@ -1,0 +1,37 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Done. I've moved the API Timeout Customer Follow-up meeting from 11:00 AM to 3:00 PM on April 24.",
+  "task_id": "CT-MT-2-001",
+  "template_id": "CT-MT-2",
+  "tool_calls": [
+    {
+      "action": "list",
+      "agent_message": "",
+      "args": {},
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "T-ct-CT_MT_2_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "EVT-ct-target-CT_MT_2_001",
+        "time": "15:00"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

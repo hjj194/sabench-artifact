@@ -1,0 +1,7 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": " I see two \"Helio Customer Sync\" events\u2014one on Apr 29 at 13:00 and one on Apr 30 at 13:00. Do you want to move both to 9 AM, or just a specific one?",
+  "task_id": "CT-AB-3-004",
+  "template_id": "CT-AB-3",
+  "tool_calls": []
+}

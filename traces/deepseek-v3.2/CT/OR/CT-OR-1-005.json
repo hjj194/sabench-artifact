@@ -1,0 +1,25 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "I've scheduled the Support Handoff meeting for April 23 at 10:00 AM. I invited Alice Chen, Bob Smith, and Carol Diaz as attendees. The meeting is set for 1 hour (default duration).",
+  "task_id": "CT-OR-1-005",
+  "template_id": "CT-OR-1",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "alice@co.com",
+          "bob@co.com",
+          "carol@co.com"
+        ],
+        "duration": 60,
+        "time": "Apr 23 10:00",
+        "title": "Support Handoff"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

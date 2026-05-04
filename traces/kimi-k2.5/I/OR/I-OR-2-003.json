@@ -1,0 +1,39 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. Ticket T-I_OR_2_003 (\"Search layout bug - mobile\") has been closed.",
+  "task_id": "I-OR-2-003",
+  "template_id": "I-OR-2",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "mobile search layout bug"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "T-I_OR_2_003"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-I_OR_2_003",
+        "status": "closed"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

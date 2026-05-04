@@ -1,0 +1,49 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Replied to the customer\u2019s email.",
+  "task_id": "I-CH-4-001",
+  "template_id": "I-CH-4",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_customer_I_CH_4_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "get_thread",
+      "agent_message": "",
+      "args": {
+        "id": "e_customer_I_CH_4_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "T-related-I_CH_4_001"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Priya,\n\nThanks for sending over the Q3 budget approval request. We\u2019ve received it and are reviewing it now. We\u2019ll follow up as soon as we have an update.\n\nBest,\n[Your Name]",
+        "id": "e_customer_I_CH_4_001"
+      },
+      "step": 3,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've replied to the email.",
+  "task_id": "I-CH-4-003",
+  "template_id": "I-CH-4",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "We've received your request for a security review and are currently reviewing it internally. We will get back to you with an update as soon as possible.",
+        "id": "e_customer_I_CH_4_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

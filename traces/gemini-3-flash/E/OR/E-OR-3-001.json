@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've replied to Priya Nair's email.",
+  "task_id": "E-OR-3-001",
+  "template_id": "E-OR-3",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "We received it and will review today.",
+        "id": "e-ext-E_OR_3_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

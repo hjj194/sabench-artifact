@@ -1,0 +1,23 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Done! This week's Weekly Team Standup (Apr 22) has been moved from 9:00 AM to 10:00 AM. The rest of the series remains unchanged.",
+  "task_id": "D-MT-1-001",
+  "template_id": "D-MT-1",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "Move this week's team standup (Apr 22) from 9am to 10am"
+        },
+        "id": "STD-D_MT_1_001",
+        "time": "10:00"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

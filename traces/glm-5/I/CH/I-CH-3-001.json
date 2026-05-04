@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Created the calendar event \"Kickoff Meeting\" for April 22, 2026 at 10:00 AM.",
+  "task_id": "I-CH-3-001",
+  "template_id": "I-CH-3",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "April 22, 2026 at 10:00 AM",
+        "title": "Kickoff Meeting"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

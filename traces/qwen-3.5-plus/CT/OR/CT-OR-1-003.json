@@ -1,0 +1,23 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "The Vendor Check-in has been scheduled for April 23, 2026 at 10:00 AM with Priya Nair (priya@vendor.com) as an attendee.",
+  "task_id": "CT-OR-1-003",
+  "template_id": "CT-OR-1",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "priya@vendor.com"
+        ],
+        "duration": 60,
+        "time": "2026-04-23 10:00",
+        "title": "Vendor Check-in"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

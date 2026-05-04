@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've rescheduled the Weekly Launch Review on Apr 22 to 10:00 AM.",
+  "task_id": "D-CH-2-003",
+  "template_id": "D-CH-2",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-D_CH_2_003",
+        "time": "10:00 AM"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

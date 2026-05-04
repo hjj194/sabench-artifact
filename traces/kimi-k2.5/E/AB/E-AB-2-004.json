@@ -1,0 +1,7 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": " There are two emails with the subject \"Helio launch contact\" \u2014 one from Priya Nair (priya@vendor.com) and one from ops@client.com. Which contact should I reply to?",
+  "task_id": "E-AB-2-004",
+  "template_id": "E-AB-2",
+  "tool_calls": []
+}

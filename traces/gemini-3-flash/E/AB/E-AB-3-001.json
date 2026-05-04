@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "Which partner team would you like me to invite: the client partner team or the vendor partner team?",
+  "task_id": "E-AB-3-001",
+  "template_id": "E-AB-3",
+  "tool_calls": []
+}

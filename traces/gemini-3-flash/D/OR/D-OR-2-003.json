@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've closed the \"Data Export follow-up\" ticket (T-child-D_OR_2_003).",
+  "task_id": "D-OR-2-003",
+  "template_id": "D-OR-2",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-child-D_OR_2_003",
+        "status": "closed"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

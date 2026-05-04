@@ -1,0 +1,20 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Email sent to stakeholders.",
+  "task_id": "E-AB-1-003",
+  "template_id": "E-AB-1",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "Hi all,\n\nI wanted to let you know that the support rollout is on track. I'll share the updated checklist with you this afternoon.\n\nBest regards",
+        "title": "Support Rollout Update",
+        "to": "dl-internal-E_AB_1_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

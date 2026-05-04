@@ -1,0 +1,21 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Requested the missing diagnostics from Priya on the customer incident thread.",
+  "task_id": "CT-AB-2-001",
+  "template_id": "CT-AB-2",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Priya,\n\nThanks for the update. To continue investigating the API timeout, please send the missing diagnostics when you can:\n- Exact UTC timestamps of the failures\n- Request/correlation IDs\n- Affected endpoint(s)\n- Request payload sample\n- Full error/response details\n- Any relevant logs or stack traces\n\nOnce we have those, we can narrow down the cause quickly.\n\nBest,\n[Your Name]",
+        "id": "e-ct-a-CT_AB_2_001",
+        "subject": "Re: API Timeout customer incident",
+        "to": "priya@vendor.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

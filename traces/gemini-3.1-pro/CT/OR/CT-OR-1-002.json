@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "To schedule the Planning Sync, could you please tell me who should be invited and how long the meeting should last?",
+  "task_id": "CT-OR-1-002",
+  "template_id": "CT-OR-1",
+  "tool_calls": []
+}

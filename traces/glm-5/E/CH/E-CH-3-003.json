@@ -1,0 +1,22 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done! I've sent Sam Rivera an email with the status update that the data export investigation is still in progress and that an update will be provided today.",
+  "task_id": "E-CH-3-003",
+  "template_id": "E-CH-3",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Sam,\n\nThe data export investigation is still in progress. We will provide an update today.\n\nBest regards",
+        "title": "Data Export Investigation Status Update",
+        "to": [
+          "sam@partner.com"
+        ]
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. The \"Support Handoff\" event has been created for April 22 at 10:00 AM.",
+  "task_id": "I-CH-3-005",
+  "template_id": "I-CH-3",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "Apr 22 10:00",
+        "title": "Support Handoff"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

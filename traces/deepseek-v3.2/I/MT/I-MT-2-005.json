@@ -1,0 +1,27 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Done. I've set the priority of the \"Settings save bug - mobile\" ticket (ID: T-I_MT_2_005) to high.",
+  "task_id": "I-MT-2-005",
+  "template_id": "I-MT-2",
+  "tool_calls": [
+    {
+      "action": "list",
+      "agent_message": "",
+      "args": {},
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "set_priority",
+      "agent_message": "",
+      "args": {
+        "id": "T-I_MT_2_005",
+        "priority": "high"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

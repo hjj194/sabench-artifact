@@ -1,0 +1,7 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "There are two emails from Alice with the subject \"Contract update\" in your inbox. Which one would you like me to reply to?\n\n1. **Email from Apr 21, 09:00** (ID: e_A_I_AB_1_001)\n2. **Email from Apr 21, 15:00** (ID: e_B_I_AB_1_001)\n\nOr should I reply to both?",
+  "task_id": "I-AB-1-001",
+  "template_id": "I-AB-1",
+  "tool_calls": []
+}

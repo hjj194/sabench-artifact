@@ -1,0 +1,37 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have scheduled the 30-minute Northstar client call with Sam Rivera for April 28, 2026 at 9:30 AM.",
+  "task_id": "E-OR-2-003",
+  "template_id": "E-OR-2",
+  "tool_calls": [
+    {
+      "action": "check_conflicts",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "sam@partner.com"
+        ],
+        "duration": 30,
+        "time": "2026-04-28 09:30"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "sam@partner.com"
+        ],
+        "duration": 30,
+        "time": "2026-04-28 09:30",
+        "title": "Northstar client call"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

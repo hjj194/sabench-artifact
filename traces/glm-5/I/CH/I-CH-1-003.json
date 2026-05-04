@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. I've replied to the billing email about \"Usage charge exception\" and informed them that support ops is reviewing it.",
+  "task_id": "I-CH-1-003",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "entity_id": "e_invoice_I_CH_1_003",
+        "text": "Thank you for reaching out about the usage charge exception. Our support ops team is currently reviewing this matter and will follow up with you shortly."
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

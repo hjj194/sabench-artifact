@@ -1,0 +1,19 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "Replied to the finance email.",
+  "task_id": "I-CH-1-005",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "I saw this and will review it this afternoon.",
+        "id": "e_invoice_I_CH_1_005"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

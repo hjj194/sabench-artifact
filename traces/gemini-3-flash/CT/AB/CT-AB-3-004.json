@@ -1,0 +1,18 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "Which Helio Customer Sync event would you like to move: the one on April 29th or April 30th?",
+  "task_id": "CT-AB-3-004",
+  "template_id": "CT-AB-3",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-CT_AB_3_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

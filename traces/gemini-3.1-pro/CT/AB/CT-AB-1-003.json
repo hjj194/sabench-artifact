@@ -1,0 +1,48 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "How would you like me to follow up? Should I reply to the email from client@client.com, add a comment to the \"Billing export investigation\" ticket, or something else? What message would you like to include?",
+  "task_id": "CT-AB-1-003",
+  "template_id": "CT-AB-1",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Billing export delay"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Billing export delay"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_api_CT_AB_1_003"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Billing export investigation"
+      },
+      "step": 3,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

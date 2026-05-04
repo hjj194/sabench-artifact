@@ -1,0 +1,29 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "The Northstar Data Export escalation ticket (T-client-E_MT_3_003) has been successfully closed.",
+  "task_id": "E-MT-3-003",
+  "template_id": "E-MT-3",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Northstar Data Export escalation"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-client-E_MT_3_003",
+        "status": "closed"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

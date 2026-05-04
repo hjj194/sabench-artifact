@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Which contract email from Alice would you like me to forward: \"Contract - Version A\" or \"Contract - Version B\"?",
+  "task_id": "I-AB-3-004",
+  "template_id": "I-AB-3",
+  "tool_calls": []
+}

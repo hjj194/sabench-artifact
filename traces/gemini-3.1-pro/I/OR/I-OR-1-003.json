@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "What would you like me to say in the reply to Priya's email about \"Renewal Terms Final\"?",
+  "task_id": "I-OR-1-003",
+  "template_id": "I-OR-1",
+  "tool_calls": []
+}

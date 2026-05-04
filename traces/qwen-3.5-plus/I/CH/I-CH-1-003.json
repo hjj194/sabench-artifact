@@ -1,0 +1,20 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "Reply sent to billing@vendor.com regarding the \"Usage charge exception\" email, informing them that support operations is reviewing the matter.",
+  "task_id": "I-CH-1-003",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Thank you for your email regarding the usage charge exception. Our support operations team is currently reviewing this matter and will get back to you shortly with an update.",
+        "id": "e_invoice_I_CH_1_003",
+        "to": "billing@vendor.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

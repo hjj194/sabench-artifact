@@ -1,0 +1,19 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. Created \"Kickoff Meeting\" on April 22, 2026 at 10:00 AM.",
+  "task_id": "I-CH-3-001",
+  "template_id": "I-CH-3",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "2026-04-22 10:00",
+        "title": "Kickoff Meeting"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

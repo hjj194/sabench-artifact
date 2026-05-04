@@ -1,0 +1,22 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Email sent to Riley Stone with the status update about the webhook retry investigation.",
+  "task_id": "E-CH-3-002",
+  "template_id": "E-CH-3",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Riley,\n\nThis is a status update on the webhook retry investigation. The investigation is still in progress, and we will provide another update today.\n\nBest regards",
+        "subject": "Status Update: Webhook Retry Investigation",
+        "to": [
+          "riley@client.com"
+        ]
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

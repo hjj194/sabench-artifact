@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "Which API timeout meeting would you like to move: the Customer Follow-up or the Internal Follow-up? Both are currently scheduled for 11:00 AM.",
+  "task_id": "CT-MT-2-001",
+  "template_id": "CT-MT-2",
+  "tool_calls": []
+}

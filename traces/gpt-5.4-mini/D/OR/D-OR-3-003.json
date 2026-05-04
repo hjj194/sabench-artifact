@@ -1,0 +1,20 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Replied: received it and will review today.",
+  "task_id": "D-OR-3-003",
+  "template_id": "D-OR-3",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Received, thank you. We will review it today.",
+        "id": "e-target-D_OR_3_003",
+        "thread_id": "THR-D_OR_3_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

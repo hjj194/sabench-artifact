@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "Which date would you like to cancel: April 22nd or April 23rd?",
+  "task_id": "I-MT-3-005",
+  "template_id": "I-MT-3",
+  "tool_calls": []
+}

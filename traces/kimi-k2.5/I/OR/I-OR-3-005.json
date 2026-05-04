@@ -1,0 +1,20 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. I've scheduled \"Support Handoff\" for Apr 22 at 10:00 AM.",
+  "task_id": "I-OR-3-005",
+  "template_id": "I-OR-3",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "date": "Apr 22",
+        "time": "10:00",
+        "title": "Support Handoff"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

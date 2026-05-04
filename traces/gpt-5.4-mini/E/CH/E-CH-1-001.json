@@ -1,0 +1,21 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Replied to the client\u2019s urgent outage email.",
+  "task_id": "E-CH-1-001",
+  "template_id": "E-CH-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi,\n\nWe\u2019re very sorry for the disruption and understand this is urgent. We\u2019ve received your report that the integration has been down for two hours and are investigating immediately.\n\nWe\u2019ll keep you updated as soon as we have more information. If possible, please send any recent error messages or changes made before the outage so we can expedite troubleshooting.\n\nThanks for your patience,\n[Your Name]",
+        "id": "e_complaint_E_CH_1_001",
+        "title": "Re: Urgent outage complaint",
+        "to": "customer@client.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

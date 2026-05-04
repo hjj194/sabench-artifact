@@ -1,0 +1,20 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "The April 22 Weekly Standup has been cancelled.",
+  "task_id": "D-AB-1-004",
+  "template_id": "D-AB-1",
+  "tool_calls": [
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-occ-D_AB_1_004",
+        "time": "09:00",
+        "title": "Weekly Standup"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

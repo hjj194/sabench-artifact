@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. This week's team standup (Apr 22) has been moved to 10:00am. Future occurrences remain at 9:00am.",
+  "task_id": "D-MT-1-001",
+  "template_id": "D-MT-1",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-D_MT_1_001",
+        "time": "10:00"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

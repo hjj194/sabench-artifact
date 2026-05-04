@@ -1,0 +1,21 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Done \u2014 the Apr 22 Weekly Pipeline Review has been rescheduled to 11:00 AM.",
+  "task_id": "D-CH-2-004",
+  "template_id": "D-CH-2",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "description": "Reschedule Apr 22 Weekly Pipeline Review to 11:00 AM to align with partner ops handoff.",
+        "id": "STD-D_CH_2_004",
+        "time": "11:00",
+        "title": "Weekly Pipeline Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

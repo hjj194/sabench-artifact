@@ -1,0 +1,20 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Done.",
+  "task_id": "D-MT-3-002",
+  "template_id": "D-MT-3",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-db-D_MT_3_002",
+        "status": "closed",
+        "title": "Payments Database Migration"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

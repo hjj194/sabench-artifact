@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "I found two unread \u201cContract update\u201d emails from alice@vendor.com today. Which one should I reply to\u2014the 9:00 AM message or the 3:00 PM message?",
+  "task_id": "I-AB-1-001",
+  "template_id": "I-AB-1",
+  "tool_calls": []
+}

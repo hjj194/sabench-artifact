@@ -1,0 +1,21 @@
+{
+  "agent_id": "minimax-m2.5",
+  "final_response": "<think>The invitation was successfully sent. Morgan Lee (manager@co.com) has been invited to the April 29 Project Review occurrence.</think>\n\nDone. Morgan Lee has been invited to the April 29 Project Review meeting.",
+  "task_id": "D-OR-1-004",
+  "template_id": "D-OR-1",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "manager@co.com"
+        ],
+        "entity_id": "OCC-D_OR_1_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

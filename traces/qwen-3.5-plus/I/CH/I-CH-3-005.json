@@ -1,0 +1,19 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "Done. The calendar event \"Support Handoff\" has been created for Apr 22 at 10:00 AM.",
+  "task_id": "I-CH-3-005",
+  "template_id": "I-CH-3",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "10:00",
+        "title": "Support Handoff"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

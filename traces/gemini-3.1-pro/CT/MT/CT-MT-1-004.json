@@ -1,0 +1,59 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "The ticket \"Login Loop investigation\" has been set to high priority as requested.",
+  "task_id": "CT-MT-1-004",
+  "template_id": "CT-MT-1",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "login loop follow-up"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "login loop"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Login Loop investigation"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Login Loop"
+      },
+      "step": 3,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "set_priority",
+      "agent_message": "",
+      "args": {
+        "entity_id": "T-ct-target-CT_MT_1_004",
+        "priority": "high"
+      },
+      "step": 4,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

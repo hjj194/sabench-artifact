@@ -1,0 +1,19 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. Moved this week's release standup (Apr 22) from 9:00am to 10:00am.",
+  "task_id": "D-MT-1-004",
+  "template_id": "D-MT-1",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-D_MT_1_004",
+        "time": "10:00"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

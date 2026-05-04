@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have created the \"Planning Sync\" on April 22 at 10:00 AM.",
+  "task_id": "I-CH-3-002",
+  "template_id": "I-CH-3",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "April 22 10:00 AM",
+        "title": "Planning Sync"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "I found the email, but I don't have details about what you'd like to say in your reply. What would you like the reply to say?",
+  "task_id": "I-CH-1-001",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "Fetching the invoice exception email to understand its content before replying"
+        },
+        "id": "e_invoice_I_CH_1_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

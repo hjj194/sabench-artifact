@@ -1,0 +1,18 @@
+{
+  "agent_id": "minimax-m2.5",
+  "final_response": "<think>The cancellation was successful. The Tuesday Product Standup on April 23rd has been cancelled.</think>\n\nDone. Cancelled the Tuesday Product Standup (April 23rd, 9:00 AM).",
+  "task_id": "I-MT-3-003",
+  "template_id": "I-MT-3",
+  "tool_calls": [
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "entity_id": "evt-standup-apr23-I_MT_3_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

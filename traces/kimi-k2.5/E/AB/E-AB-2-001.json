@@ -1,0 +1,7 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "There are two emails with the subject \"Acme launch contact\" in your inbox\u2014one from priya@vendor.com and one from ops@client.com. Which contact would you like me to reply to?",
+  "task_id": "E-AB-2-001",
+  "template_id": "E-AB-2",
+  "tool_calls": []
+}

@@ -1,0 +1,7 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "I can schedule the Kickoff Meeting for April 22 at 10 AM. However, I need a few more details:\n\n1. **Duration**: How long should the meeting be (e.g., 30 minutes, 1 hour)?\n2. **Attendees**: Who should be invited to this meeting?\n\nOnce you provide these details, I'll create the calendar event.",
+  "task_id": "I-OR-3-001",
+  "template_id": "I-OR-3",
+  "tool_calls": []
+}

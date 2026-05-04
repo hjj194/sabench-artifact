@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've closed the high-priority ticket \"Usage export failure - API\" (T-billing-csv-I_CH_2_005).",
+  "task_id": "I-CH-2-005",
+  "template_id": "I-CH-2",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-billing-csv-I_CH_2_005",
+        "status": "closed"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

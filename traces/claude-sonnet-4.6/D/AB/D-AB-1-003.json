@@ -1,0 +1,20 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "Done. The Apr 22 Weekly Standup occurrence has been cancelled. The rest of the series (Apr 29, May 06) remains scheduled.",
+  "task_id": "D-AB-1-003",
+  "template_id": "D-AB-1",
+  "tool_calls": [
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-occ-D_AB_1_003",
+        "time": "Apr 22 09:00",
+        "title": "Weekly Standup"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

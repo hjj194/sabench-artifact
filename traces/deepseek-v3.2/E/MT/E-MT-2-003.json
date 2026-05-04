@@ -1,0 +1,29 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Done. Sam Rivera has been invited to the Northstar Planning Review meeting.",
+  "task_id": "E-MT-2-003",
+  "template_id": "E-MT-2",
+  "tool_calls": [
+    {
+      "action": "list",
+      "agent_message": "",
+      "args": {},
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "sam@partner.com"
+        ],
+        "id": "EVT-E_MT_2_003"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

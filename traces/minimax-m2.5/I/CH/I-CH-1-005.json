@@ -1,0 +1,30 @@
+{
+  "agent_id": "minimax-m2.5",
+  "final_response": "<think>The email was replied to successfully. Let me provide a brief confirmation to the user.\n</think>\n\n\n\nDone. I replied to the email from finance@vendor.com about \"April true-up exception\" confirming that you saw it and will review it this afternoon.",
+  "task_id": "I-CH-1-005",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_invoice_I_CH_1_005"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi,\n\nI saw your email about the April true-up exception. I will review it this afternoon.\n\nThanks",
+        "id": "e_invoice_I_CH_1_005",
+        "thread_id": "e_invoice_I_CH_1_005"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

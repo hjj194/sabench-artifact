@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. I've scheduled \"Support Handoff\" for April 22 at 10:00 AM.",
+  "task_id": "I-OR-3-005",
+  "template_id": "I-OR-3",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "Apr 22 10:00 AM",
+        "title": "Support Handoff"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

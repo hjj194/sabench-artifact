@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've replied to the email regarding the blocked deployment and the delay in support response.",
+  "task_id": "E-CH-1-003",
+  "template_id": "E-CH-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hello, \n\nThank you for reaching out. We have received your complaint regarding the blocked deployment and are looking into the lack of support response you've experienced. We will get back to you with an update as soon as possible.",
+        "id": "e_complaint_E_CH_1_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

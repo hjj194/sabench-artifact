@@ -1,0 +1,59 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have set the priority of the \"Data Export investigation\" ticket to high, as requested in the follow-up email.",
+  "task_id": "CT-MT-1-003",
+  "template_id": "CT-MT-1",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "data export follow-up"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "data export"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Data Export investigation"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Data Export"
+      },
+      "step": 3,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "set_priority",
+      "agent_message": "",
+      "args": {
+        "entity_id": "T-ct-target-CT_MT_1_003",
+        "priority": "high"
+      },
+      "step": 4,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

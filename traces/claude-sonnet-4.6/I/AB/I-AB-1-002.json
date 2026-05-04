@@ -1,0 +1,7 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "There are two emails from Alice at the vendor \u2014 one about a pricing question and one about a timeline question. Which one should I reply to?",
+  "task_id": "I-AB-1-002",
+  "template_id": "I-AB-1",
+  "tool_calls": []
+}

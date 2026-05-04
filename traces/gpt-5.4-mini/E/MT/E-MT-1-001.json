@@ -1,0 +1,19 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Done.",
+  "task_id": "E-MT-1-001",
+  "template_id": "E-MT-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Priya,\n\nWe received it and will review today.\n\nThanks.",
+        "id": "e-ext-target-E_MT_1_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

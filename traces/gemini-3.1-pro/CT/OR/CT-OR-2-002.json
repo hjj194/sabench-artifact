@@ -1,0 +1,20 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have successfully scheduled the 30-minute event titled \"Personal follow-up: Webhook Retry follow-up\" for April 27, 2026 at 10:30 AM.",
+  "task_id": "CT-OR-2-002",
+  "template_id": "CT-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "duration": 30,
+        "time": "2026-04-27 10:30",
+        "title": "Personal follow-up: Webhook Retry follow-up"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

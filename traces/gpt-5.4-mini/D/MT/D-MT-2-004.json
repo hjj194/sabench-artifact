@@ -1,0 +1,22 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Done.",
+  "task_id": "D-MT-2-004",
+  "template_id": "D-MT-2",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Morgan,\n\nWe\u2019re aligned on the proposed vendor support coverage. Let\u2019s plan to discuss pricing next week.\n\nBest,\n[Your Name]",
+        "id": "e_D_MT_2_004",
+        "subject": "Re: Support Plan",
+        "thread_id": "THR-D_MT_2_004",
+        "to": "manager@co.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

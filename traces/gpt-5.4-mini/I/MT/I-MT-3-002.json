@@ -1,0 +1,21 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Canceled the Tuesday Ops Standup.",
+  "task_id": "I-MT-3-002",
+  "template_id": "I-MT-3",
+  "tool_calls": [
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "evt-standup-apr22-I_MT_3_002",
+        "status": "scheduled",
+        "time": "09:00",
+        "title": "Ops Standup"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

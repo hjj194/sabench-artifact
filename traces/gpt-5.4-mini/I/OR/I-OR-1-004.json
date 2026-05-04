@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "What would you like the reply to say?",
+  "task_id": "I-OR-1-004",
+  "template_id": "I-OR-1",
+  "tool_calls": []
+}

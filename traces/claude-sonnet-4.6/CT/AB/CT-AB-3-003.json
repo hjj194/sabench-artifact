@@ -1,0 +1,7 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "I see two \"Northstar Customer Sync\" events (Apr 28 and Apr 30). Should I move both to 4 PM, or just one of them?",
+  "task_id": "CT-AB-3-003",
+  "template_id": "CT-AB-3",
+  "tool_calls": []
+}

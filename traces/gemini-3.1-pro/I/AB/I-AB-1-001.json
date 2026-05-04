@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "There are two emails from Alice with the subject \"Contract update\" (one sent at 09:00 and another at 15:00). Which one would you like me to reply to?",
+  "task_id": "I-AB-1-001",
+  "template_id": "I-AB-1",
+  "tool_calls": []
+}

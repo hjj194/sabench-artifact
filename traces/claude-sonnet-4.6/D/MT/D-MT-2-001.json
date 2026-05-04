@@ -1,0 +1,21 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "Done \u2014 replied to Bob's latest Q3 Plan email letting him know you'll review it this afternoon.",
+  "task_id": "D-MT-2-001",
+  "template_id": "D-MT-2",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Bob, thanks for sending this over. I'll review the Q3 Plan this afternoon. Best regards",
+        "id": "e_D_MT_2_001",
+        "thread_id": "THR-D_MT_2_001",
+        "to": "bob@co.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

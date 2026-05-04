@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have replied to the customer acknowledging the issue.",
+  "task_id": "E-CH-1-003",
+  "template_id": "E-CH-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Thank you for reaching out. We are currently looking into the lack of support response regarding your blocked deployment and will update you as soon as possible.",
+        "id": "e_complaint_E_CH_1_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

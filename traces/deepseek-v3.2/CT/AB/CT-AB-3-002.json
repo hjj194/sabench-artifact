@@ -1,0 +1,7 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "I need to clarify which Brightlane Customer Sync event you want to move. I see two events in your calendar:\n1. April 27 at 14:00 (2:00 PM)\n2. April 30 at 14:00 (2:00 PM)\n\nWhich one would you like to move to 10:30 AM? Or do you want to move both events?",
+  "task_id": "CT-AB-3-002",
+  "template_id": "CT-AB-3",
+  "tool_calls": []
+}

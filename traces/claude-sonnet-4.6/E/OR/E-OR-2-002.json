@@ -1,0 +1,23 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "Done. A 30-minute \"Brightlane Client Call\" has been scheduled for April 27, 2026 at 2:00 PM with Riley Stone (riley@client.com).",
+  "task_id": "E-OR-2-002",
+  "template_id": "E-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "riley@client.com"
+        ],
+        "duration": 30,
+        "time": "2026-04-27T14:00",
+        "title": "Brightlane Client Call"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

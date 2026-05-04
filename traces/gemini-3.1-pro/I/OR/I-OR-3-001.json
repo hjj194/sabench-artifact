@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Who should I invite to the Kickoff Meeting, and how long should it be?",
+  "task_id": "I-OR-3-001",
+  "template_id": "I-OR-3",
+  "tool_calls": []
+}

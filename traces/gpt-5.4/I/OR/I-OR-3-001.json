@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "Who should I invite, and how long should the Kickoff Meeting be?",
+  "task_id": "I-OR-3-001",
+  "template_id": "I-OR-3",
+  "tool_calls": []
+}

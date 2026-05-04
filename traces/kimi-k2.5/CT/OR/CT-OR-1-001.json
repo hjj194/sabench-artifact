@@ -1,0 +1,19 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. I've scheduled a \"Kickoff Meeting\" for April 23 at 10:00 AM.",
+  "task_id": "CT-OR-1-001",
+  "template_id": "CT-OR-1",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "2025-04-23T10:00:00",
+        "title": "Kickoff Meeting"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Which \"Brightlane customer sync\" event would you like to move? You have one scheduled for April 27th and another for April 30th.",
+  "task_id": "CT-AB-3-002",
+  "template_id": "CT-AB-3",
+  "tool_calls": []
+}

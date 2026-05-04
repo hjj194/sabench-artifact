@@ -1,0 +1,27 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Done. I've moved this week's (April 22nd) product standup from 9am to 10am. The modification only affects this specific occurrence, not the entire recurring series.",
+  "task_id": "D-MT-1-003",
+  "template_id": "D-MT-1",
+  "tool_calls": [
+    {
+      "action": "list",
+      "agent_message": "",
+      "args": {},
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-D_MT_1_003",
+        "time": "10:00"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

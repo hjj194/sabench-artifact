@@ -1,0 +1,19 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Scheduled the Kickoff Meeting for April 23 at 10:00 AM.",
+  "task_id": "CT-OR-1-001",
+  "template_id": "CT-OR-1",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "Apr 23 10:00 AM",
+        "title": "Kickoff Meeting"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

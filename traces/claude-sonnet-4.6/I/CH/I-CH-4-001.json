@@ -1,0 +1,18 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "The email body doesn't contain specific details. Before I reply, I need to know: **what would you like to say in the reply?** For example:\n\n- Acknowledge receipt and ask for more details?\n- Approve the Q3 budget request?\n- Decline or request revisions?\n- Something else?\n\nPlease share the message content you'd like to send.",
+  "task_id": "I-CH-4-001",
+  "template_id": "I-CH-4",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_customer_I_CH_4_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

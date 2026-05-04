@@ -1,0 +1,19 @@
+{
+  "agent_id": "minimax-m2.5",
+  "final_response": "<think>The ticket was successfully updated. The ticket \"API Timeout investigation\" (T-ct-target-CT_MT_1_001) has been set to high priority.</think>\n\nDone. I've set the \"API Timeout investigation\" ticket (T-ct-target-CT_MT_1_001) to high priority.",
+  "task_id": "CT-MT-1-001",
+  "template_id": "CT-MT-1",
+  "tool_calls": [
+    {
+      "action": "set_priority",
+      "agent_message": "",
+      "args": {
+        "id": "T-ct-target-CT_MT_1_001",
+        "priority": "high"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

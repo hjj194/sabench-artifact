@@ -1,0 +1,38 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Who would you like me to invite to the Kickoff Meeting, and how long should it be scheduled for?",
+  "task_id": "CT-OR-1-001",
+  "template_id": "CT-OR-1",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Kickoff details"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_ct_CT_OR_1_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_ct_CT_OR_1_001"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

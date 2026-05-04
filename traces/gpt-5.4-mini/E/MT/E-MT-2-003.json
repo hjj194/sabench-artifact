@@ -1,0 +1,23 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Sam Rivera has been invited to the Northstar Planning Review.",
+  "task_id": "E-MT-2-003",
+  "template_id": "E-MT-2",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "sam@partner.com"
+        ],
+        "entity_id": "EVT-E_MT_2_003",
+        "time": "Apr 28 09:30",
+        "title": "Northstar Planning Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

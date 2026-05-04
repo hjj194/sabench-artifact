@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Who should be invited to the Vendor Check-in?",
+  "task_id": "CT-OR-1-003",
+  "template_id": "CT-OR-1",
+  "tool_calls": []
+}

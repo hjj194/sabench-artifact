@@ -1,0 +1,22 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Riley Stone has been invited to the Brightlane Planning Review.",
+  "task_id": "E-MT-2-002",
+  "template_id": "E-MT-2",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "riley@client.com"
+        ],
+        "time": "Apr 27 14:00",
+        "title": "Brightlane Planning Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

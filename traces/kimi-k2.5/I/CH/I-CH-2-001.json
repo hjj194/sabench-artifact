@@ -1,0 +1,19 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. Ticket \"Billing export failure - CSV\" has been closed.",
+  "task_id": "I-CH-2-001",
+  "template_id": "I-CH-2",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-billing-csv-I_CH_2_001",
+        "status": "closed"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

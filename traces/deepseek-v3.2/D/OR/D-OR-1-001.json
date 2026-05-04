@@ -1,0 +1,21 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Morgan Lee has been invited to the April 24th Project Review occurrence.",
+  "task_id": "D-OR-1-001",
+  "template_id": "D-OR-1",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "manager@co.com"
+        ],
+        "id": "OCC-D_OR_1_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

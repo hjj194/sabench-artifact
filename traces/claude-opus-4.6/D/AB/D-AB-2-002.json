@@ -1,0 +1,25 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Done! I've forwarded the latest \"Q3 Plan\" email to Morgan Lee (manager@co.com).",
+  "task_id": "D-AB-2-002",
+  "template_id": "D-AB-2",
+  "tool_calls": [
+    {
+      "action": "forward",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "Forwarding the most recent Q3 Plan email to Morgan Lee"
+        },
+        "id": "e_B_D_AB_2_002",
+        "to": [
+          "manager@co.com"
+        ]
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

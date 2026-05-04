@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Could you please clarify how you'd like me to follow up? Should I reply to the email from the client, update the ticket, or something else?",
+  "task_id": "CT-AB-1-005",
+  "template_id": "CT-AB-1",
+  "tool_calls": []
+}

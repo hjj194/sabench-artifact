@@ -1,0 +1,7 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "I see two emails from Alice with the subject \"Contract update\" in your inbox:\n\n1. From Apr 21 at 09:00 (ID: e_A_I_AB_1_001)\n2. From Apr 21 at 15:00 (ID: e_B_I_AB_1_001)\n\nWhich one would you like me to reply to?",
+  "task_id": "I-AB-1-001",
+  "template_id": "I-AB-1",
+  "tool_calls": []
+}

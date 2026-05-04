@@ -1,0 +1,25 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "The Apr 22 Weekly Launch Review has been rescheduled to 10:00 AM.",
+  "task_id": "D-CH-2-003",
+  "template_id": "D-CH-2",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "alice@co.com",
+          "bob@co.com",
+          "carol@co.com"
+        ],
+        "id": "STD-D_CH_2_003",
+        "time": "10:00",
+        "title": "Weekly Launch Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "agent_id": "minimax-m2.5",
+  "final_response": "<think>The invitation was successfully sent. Riley Stone has been invited to the Brightlane Planning Review event.</think>\n\nDone. I've invited Riley Stone (riley@client.com) to the Brightlane Planning Review on April 27 at 14:00.",
+  "task_id": "E-MT-2-002",
+  "template_id": "E-MT-2",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "entity_id": "EVT-E_MT_2_002",
+        "to": [
+          "riley@client.com"
+        ]
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

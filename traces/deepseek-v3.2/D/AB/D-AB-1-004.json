@@ -1,0 +1,26 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Done! The April 22 Weekly Standup has been canceled. The series will continue with the April 29 and May 6 occurrences.",
+  "task_id": "D-AB-1-004",
+  "template_id": "D-AB-1",
+  "tool_calls": [
+    {
+      "action": "list",
+      "agent_message": "",
+      "args": {},
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-occ-D_AB_1_004"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

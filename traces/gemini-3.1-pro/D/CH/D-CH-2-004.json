@@ -1,0 +1,29 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have rescheduled the April 22 Weekly Pipeline Review to 11:00 AM as requested.",
+  "task_id": "D-CH-2-004",
+  "template_id": "D-CH-2",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Weekly Pipeline Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-D_CH_2_004",
+        "time": "11:00"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

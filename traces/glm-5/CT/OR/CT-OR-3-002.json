@@ -1,0 +1,30 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Created high priority ticket \"Webhook Retry request\" from the email.",
+  "task_id": "CT-OR-3-002",
+  "template_id": "CT-OR-3",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-CT_OR_3_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "description": "Ticket created from email \"Webhook Retry request\" from riley@client.com received Apr 21 14:00",
+        "priority": "high",
+        "title": "Webhook Retry request"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

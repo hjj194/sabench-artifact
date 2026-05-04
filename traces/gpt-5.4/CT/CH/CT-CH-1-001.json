@@ -1,0 +1,29 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "Closed ticket **T-CT_CH_1_001**: Login page bug - mobile.",
+  "task_id": "CT-CH-1-001",
+  "template_id": "CT-CH-1",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Login page bug - mobile"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-CT_CH_1_001",
+        "status": "closed"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

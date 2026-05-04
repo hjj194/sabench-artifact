@@ -1,0 +1,29 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have rescheduled the \"Login Loop Customer Follow-up\" meeting to 9:00 AM.",
+  "task_id": "CT-MT-2-004",
+  "template_id": "CT-MT-2",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Login Loop"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "EVT-ct-target-CT_MT_2_004",
+        "time": "09:00"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

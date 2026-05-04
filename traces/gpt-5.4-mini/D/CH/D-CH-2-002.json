@@ -1,0 +1,22 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Done.",
+  "task_id": "D-CH-2-002",
+  "template_id": "D-CH-2",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "description": "Move Apr 22 occurrence to 10:00",
+        "id": "STD-D_CH_2_002",
+        "query": "Apr 22 Weekly Roadmap Review",
+        "time": "10:00",
+        "title": "Weekly Roadmap Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Replied to Riley's webhook retry status email confirming we're checking it and will update today.",
+  "task_id": "CT-CH-3-002",
+  "template_id": "CT-CH-3",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Riley,\n\nWe are checking on this and will update you today.\n\nThanks",
+        "id": "e-ct-CT_CH_3_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

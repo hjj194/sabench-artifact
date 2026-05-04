@@ -1,0 +1,7 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "There are two API timeout meetings scheduled \u2014 \"API Timeout Customer Follow-up\" and \"API Timeout Internal Follow-up\". Which one would you like to move to 3 PM?",
+  "task_id": "CT-MT-2-001",
+  "template_id": "CT-MT-2",
+  "tool_calls": []
+}

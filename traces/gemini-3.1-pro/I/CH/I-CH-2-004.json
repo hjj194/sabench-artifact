@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have closed the high-priority revenue report failure ticket for CSV (T-billing-csv-I_CH_2_004).",
+  "task_id": "I-CH-2-004",
+  "template_id": "I-CH-2",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "entity_id": "T-billing-csv-I_CH_2_004",
+        "status": "closed"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

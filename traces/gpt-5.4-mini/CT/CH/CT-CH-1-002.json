@@ -1,0 +1,20 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Closed the mobile checkout crash ticket.",
+  "task_id": "CT-CH-1-002",
+  "template_id": "CT-CH-1",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-CT_CH_1_002",
+        "status": "closed",
+        "title": "Checkout crash - mobile"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

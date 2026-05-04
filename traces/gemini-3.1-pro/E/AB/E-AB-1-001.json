@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "There are multiple distribution lists for \"stakeholders\" (one internal and one that includes clients). Which one would you like to email?",
+  "task_id": "E-AB-1-001",
+  "template_id": "E-AB-1",
+  "tool_calls": []
+}

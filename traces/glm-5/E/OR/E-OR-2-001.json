@@ -1,0 +1,23 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Scheduled 30-minute \"Acme client call\" with Priya Nair for Apr 24, 2026 at 11 AM.",
+  "task_id": "E-OR-2-001",
+  "template_id": "E-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "priya@vendor.com"
+        ],
+        "duration": 30,
+        "time": "Apr 24, 2026 at 11 AM",
+        "title": "Acme client call"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

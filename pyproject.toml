@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sabench-re"
+version = "0.1.0"
+description = "SABENCH_RE: task generation and deterministic oracle verification for collateral damage in stateful agents."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+openai = ["openai>=1.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sabench_re*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. The priority of the \"Settings save bug - mobile\" ticket (T-I_MT_2_005) has been set to high.",
+  "task_id": "I-MT-2-005",
+  "template_id": "I-MT-2",
+  "tool_calls": [
+    {
+      "action": "set_priority",
+      "agent_message": "",
+      "args": {
+        "entity_id": "T-I_MT_2_005",
+        "priority": "high"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

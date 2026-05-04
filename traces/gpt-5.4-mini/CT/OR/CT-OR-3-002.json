@@ -1,0 +1,21 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Done.",
+  "task_id": "CT-OR-3-002",
+  "template_id": "CT-OR-3",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "description": "Created from email e-ct-CT_OR_3_002 (subject: Webhook Retry request) from riley@client.com on Apr 21 14:00.",
+        "priority": "high",
+        "status": "open",
+        "title": "Webhook Retry request"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

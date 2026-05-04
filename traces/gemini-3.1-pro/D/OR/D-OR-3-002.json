@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have replied to the latest webhook retry renewal exception message to let them know it has been received and will be reviewed today.",
+  "task_id": "D-OR-3-002",
+  "template_id": "D-OR-3",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "We received it and will review today.",
+        "id": "e-target-D_OR_3_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

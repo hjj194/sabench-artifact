@@ -1,0 +1,23 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "Scheduled a 30-minute Brightlane client call with Riley Stone for Apr 27, 2026 at 2 PM.",
+  "task_id": "E-OR-2-002",
+  "template_id": "E-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "riley@client.com"
+        ],
+        "duration": 30,
+        "time": "Apr 27, 2026 2:00 PM",
+        "title": "Brightlane client call"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

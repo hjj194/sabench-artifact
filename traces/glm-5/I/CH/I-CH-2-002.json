@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. Ticket \"Invoice sync failure - EU\" (T-billing-csv-I_CH_2_002) has been closed.",
+  "task_id": "I-CH-2-002",
+  "template_id": "I-CH-2",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-billing-csv-I_CH_2_002",
+        "status": "closed"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

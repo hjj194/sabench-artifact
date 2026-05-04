@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. I've replied to Bob's Q3 Plan email saying you'll review it this afternoon.",
+  "task_id": "D-MT-2-001",
+  "template_id": "D-MT-2",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "text": "I'll review it this afternoon.",
+        "thread_id": "THR-D_MT_2_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

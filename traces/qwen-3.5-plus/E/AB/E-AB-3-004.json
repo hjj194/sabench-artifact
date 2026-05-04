@@ -1,0 +1,19 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "Done. The partner team (ops@vendor.com, support@vendor.com) has been invited to the Helio Launch Review on Apr 29 at 13:00.",
+  "task_id": "E-AB-3-004",
+  "template_id": "E-AB-3",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": "[\"ops@vendor.com\", \"support@vendor.com\"]",
+        "id": "EVT-E_AB_3_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have invited Sam Rivera to the Northstar Planning Review.",
+  "task_id": "E-MT-2-003",
+  "template_id": "E-MT-2",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "sam@partner.com"
+        ],
+        "id": "EVT-E_MT_2_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

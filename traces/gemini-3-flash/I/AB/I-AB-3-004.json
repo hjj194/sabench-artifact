@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "I've found two versions of Alice's contract email: Version A and Version B. Which one would you like me to forward to Priya Nair?",
+  "task_id": "I-AB-3-004",
+  "template_id": "I-AB-3",
+  "tool_calls": []
+}

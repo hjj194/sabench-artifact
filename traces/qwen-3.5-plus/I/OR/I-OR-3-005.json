@@ -1,0 +1,19 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "The Support Handoff has been scheduled for Apr 22 at 10:00 AM.",
+  "task_id": "I-OR-3-005",
+  "template_id": "I-OR-3",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "Apr 22 10:00",
+        "title": "Support Handoff"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

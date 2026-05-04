@@ -1,0 +1,19 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "Done. The \"Settings save bug - mobile\" ticket (T-CT_CH_1_005) has been closed.",
+  "task_id": "CT-CH-1-005",
+  "template_id": "CT-CH-1",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-CT_CH_1_005",
+        "status": "closed"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. Closed ticket T-child-D_OR_2_002 \"Webhook Retry follow-up\".",
+  "task_id": "D-OR-2-002",
+  "template_id": "D-OR-2",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "T-child-D_OR_2_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-child-D_OR_2_002",
+        "status": "closed"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. Moved the \"Helio Partner Onboarding\" meeting from 1 PM to 9 AM and marked Priya's email as processed.",
+  "task_id": "CT-MT-3-004",
+  "template_id": "CT-MT-3",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "EVT-ct-target-CT_MT_3_004",
+        "time": "09:00"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "EVT-ct-target-CT_MT_3_004"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "label",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-CT_MT_3_004",
+        "label": "processed"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

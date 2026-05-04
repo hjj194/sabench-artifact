@@ -1,0 +1,18 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "What would you like to say in your reply?",
+  "task_id": "I-CH-1-001",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Invoice exception for April services"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "I need to clarify which Tuesday you're referring to. Looking at the calendar events, I can see there's a Team Standup on April 22nd and another on April 23rd. \n\nCould you please specify which Tuesday's Team Standup you'd like me to cancel? Or if you could provide the specific date you're referring to?",
+  "task_id": "I-MT-3-001",
+  "template_id": "I-MT-3",
+  "tool_calls": []
+}

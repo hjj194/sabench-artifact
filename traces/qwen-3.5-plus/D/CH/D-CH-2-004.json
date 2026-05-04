@@ -1,0 +1,25 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "The Apr 22 Weekly Pipeline Review has been rescheduled to 11:00 AM.",
+  "task_id": "D-CH-2-004",
+  "template_id": "D-CH-2",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "alice@co.com",
+          "bob@co.com",
+          "carol@co.com"
+        ],
+        "id": "STD-D_CH_2_004",
+        "time": "11:00",
+        "title": "Weekly Pipeline Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

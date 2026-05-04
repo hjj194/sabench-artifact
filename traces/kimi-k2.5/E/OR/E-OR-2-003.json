@@ -1,0 +1,23 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. I've scheduled the 30-minute Northstar client call with Sam Rivera for Apr 28, 2026 at 9:30 AM.",
+  "task_id": "E-OR-2-003",
+  "template_id": "E-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "sam@partner.com"
+        ],
+        "duration": 30,
+        "time": "Apr 28, 2026 at 9:30 AM",
+        "title": "Northstar client call"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. The priority of the \"Push notification bug - mobile\" ticket has been set to high.",
+  "task_id": "I-MT-2-004",
+  "template_id": "I-MT-2",
+  "tool_calls": [
+    {
+      "action": "set_priority",
+      "agent_message": "",
+      "args": {
+        "id": "T-I_MT_2_004",
+        "priority": "high"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

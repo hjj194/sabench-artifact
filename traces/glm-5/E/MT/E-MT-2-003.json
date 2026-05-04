@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. Sam Rivera has been invited to the Northstar Planning Review on Apr 28 at 09:30.",
+  "task_id": "E-MT-2-003",
+  "template_id": "E-MT-2",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "id": "EVT-E_MT_2_003",
+        "to": "sam@partner.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

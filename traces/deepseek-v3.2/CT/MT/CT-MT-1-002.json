@@ -1,0 +1,29 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Done. I've set the \"Webhook Retry investigation\" ticket to high priority as requested in the webhook retry follow-up email.",
+  "task_id": "CT-MT-1-002",
+  "template_id": "CT-MT-1",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-CT_MT_1_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "set_priority",
+      "agent_message": "",
+      "args": {
+        "id": "T-ct-target-CT_MT_1_002",
+        "priority": "high"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

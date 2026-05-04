@@ -1,0 +1,20 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Email sent to Sam Rivera with status update on the data export investigation.",
+  "task_id": "E-CH-3-003",
+  "template_id": "E-CH-3",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Sam,\n\nI wanted to give you a quick update on the data export investigation. The investigation is still in progress, and we will provide another update today.\n\nLet me know if you have any questions.\n\nBest regards",
+        "title": "Status Update: Data Export Investigation",
+        "to": "sam@partner.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

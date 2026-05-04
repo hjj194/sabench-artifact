@@ -1,0 +1,22 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Done! Tuesday's Release Standup (Apr 22, 09:00) has been cancelled.",
+  "task_id": "I-MT-3-004",
+  "template_id": "I-MT-3",
+  "tool_calls": [
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "User requested to cancel Tuesday's Release Standup (Apr 22)"
+        },
+        "id": "evt-standup-apr22-I_MT_3_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

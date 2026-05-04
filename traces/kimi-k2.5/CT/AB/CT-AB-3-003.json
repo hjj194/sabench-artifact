@@ -1,0 +1,7 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": " I see two \"Northstar Customer Sync\" events scheduled for 09:30 on Apr 28 and Apr 30. Which occurrence(s) would you like me to move to 4 PM?",
+  "task_id": "CT-AB-3-003",
+  "template_id": "CT-AB-3",
+  "tool_calls": []
+}

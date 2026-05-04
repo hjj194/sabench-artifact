@@ -1,0 +1,21 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've invited your manager (Morgan Lee) to the Project Review on April 27.",
+  "task_id": "D-OR-1-002",
+  "template_id": "D-OR-1",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "manager@co.com"
+        ],
+        "id": "OCC-D_OR_1_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

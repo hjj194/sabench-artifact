@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have replied to the billing email regarding the \"Usage charge exception\" to let them know that support ops is reviewing it.",
+  "task_id": "I-CH-1-003",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Support ops is reviewing it.",
+        "id": "e_invoice_I_CH_1_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

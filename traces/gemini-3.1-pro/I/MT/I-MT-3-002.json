@@ -1,0 +1,28 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Could you please clarify which Ops Standup you would like to cancel? Is it the one on Apr 22 or Apr 23?",
+  "task_id": "I-MT-3-002",
+  "template_id": "I-MT-3",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Ops Standup"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Tuesday"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

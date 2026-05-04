@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "There are two open tickets titled \u201cAPI timeout issue\u201d:\n- T-A-I_AB_2_001, currently assigned to Alice\n- T-B-I_AB_2_001, currently assigned to Bob\n\nWhich one should I assign to Carol?",
+  "task_id": "I-AB-2-001",
+  "template_id": "I-AB-2",
+  "tool_calls": []
+}

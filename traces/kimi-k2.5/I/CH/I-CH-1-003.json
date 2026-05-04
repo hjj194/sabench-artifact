@@ -1,0 +1,19 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. I've replied to the billing email about \"Usage charge exception\" letting them know support ops is reviewing it.",
+  "task_id": "I-CH-1-003",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi,\n\nThank you for reaching out. Support ops is currently reviewing this usage charge exception and we will get back to you shortly with an update.\n\nBest regards",
+        "id": "e_invoice_I_CH_1_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

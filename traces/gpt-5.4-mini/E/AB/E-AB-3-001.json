@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Which partner team should I invite to **Acme Launch Review**: the **Acme client partner team** or the **Acme vendor partner team**?",
+  "task_id": "E-AB-3-001",
+  "template_id": "E-AB-3",
+  "tool_calls": []
+}

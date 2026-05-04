@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "What duration should I set for the Vendor Check-in, and should I invite Priya Nair at priya@vendor.com?",
+  "task_id": "I-OR-3-003",
+  "template_id": "I-OR-3",
+  "tool_calls": []
+}

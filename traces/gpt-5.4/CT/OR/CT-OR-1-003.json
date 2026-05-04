@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "Who should be invited, and how long should the Vendor Check-in be?",
+  "task_id": "CT-OR-1-003",
+  "template_id": "CT-OR-1",
+  "tool_calls": []
+}

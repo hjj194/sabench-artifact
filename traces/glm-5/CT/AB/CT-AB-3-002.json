@@ -1,0 +1,7 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "I see two \"Brightlane Customer Sync\" events on the calendar:\n\n1. **Apr 27** at 2:00 PM\n2. **Apr 30** at 2:00 PM\n\nWhich one would you like to move to 10:30 AM?",
+  "task_id": "CT-AB-3-002",
+  "template_id": "CT-AB-3",
+  "tool_calls": []
+}

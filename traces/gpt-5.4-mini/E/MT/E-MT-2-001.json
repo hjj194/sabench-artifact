@@ -1,0 +1,23 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Priya Nair has been invited to the Acme Planning Review.",
+  "task_id": "E-MT-2-001",
+  "template_id": "E-MT-2",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "priya@vendor.com"
+        ],
+        "entity_id": "EVT-E_MT_2_001",
+        "time": "Apr 24 11:00",
+        "title": "Acme Planning Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

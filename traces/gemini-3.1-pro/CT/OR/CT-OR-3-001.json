@@ -1,0 +1,40 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have created a high-priority ticket titled \"API Timeout request\" as requested.",
+  "task_id": "CT-OR-3-001",
+  "template_id": "CT-OR-3",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "API Timeout request"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-CT_OR_3_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "description": "",
+        "priority": "high",
+        "title": "API Timeout request"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

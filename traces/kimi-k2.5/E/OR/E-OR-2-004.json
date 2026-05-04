@@ -1,0 +1,24 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "",
+  "task_id": "E-OR-2-004",
+  "template_id": "E-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "priya@vendor.com"
+        ],
+        "description": "30-minute client call with Priya Nair",
+        "duration": 30,
+        "time": "Apr 29, 2026 13:00",
+        "title": "Helio client call"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

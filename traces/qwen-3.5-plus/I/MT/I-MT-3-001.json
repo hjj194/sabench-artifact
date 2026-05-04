@@ -1,0 +1,7 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "I see two Team Standup events in the calendar - one on April 22 and one on April 23. Could you clarify which date is Tuesday so I can cancel the correct one?",
+  "task_id": "I-MT-3-001",
+  "template_id": "I-MT-3",
+  "tool_calls": []
+}

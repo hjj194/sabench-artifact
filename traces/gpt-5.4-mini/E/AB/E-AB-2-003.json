@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "I found two inbox messages with that subject, one from sam@partner.com and one from ops@client.com. Which one should I reply to?",
+  "task_id": "E-AB-2-003",
+  "template_id": "E-AB-2",
+  "tool_calls": []
+}

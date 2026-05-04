@@ -1,0 +1,28 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Could you please clarify the date for Tuesday's Team Standup? I see occurrences scheduled for both April 22 and April 23.",
+  "task_id": "I-MT-3-001",
+  "template_id": "I-MT-3",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Tuesday Team Standup"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Team Standup"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

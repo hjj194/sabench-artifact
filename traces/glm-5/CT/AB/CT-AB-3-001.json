@@ -1,0 +1,7 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Which Acme Customer Sync event would you like to move\u2014the one on Apr 24, Apr 30, or both?",
+  "task_id": "CT-AB-3-001",
+  "template_id": "CT-AB-3",
+  "tool_calls": []
+}

@@ -1,0 +1,80 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "I've followed up on the API timeout incident by emailing Priya Nair for the missing diagnostics and adding a comment to ticket T-ct-a-CT_AB_2_001.",
+  "task_id": "CT-AB-2-001",
+  "template_id": "CT-AB-2",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "T-ct-a-CT_AB_2_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-a-CT_AB_2_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "get_thread",
+      "agent_message": "",
+      "args": {
+        "thread_id": "e-ct-a-CT_AB_2_001"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "API Timeout customer incident"
+      },
+      "step": 3,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-a-CT_AB_2_001"
+      },
+      "step": 4,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Please provide the missing diagnostics for the API timeout customer incident.",
+        "id": "e-ct-a-CT_AB_2_001"
+      },
+      "step": 5,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "add_comment",
+      "agent_message": "",
+      "args": {
+        "comment_text": "Followed up with Priya Nair requesting the missing diagnostics.",
+        "id": "T-ct-a-CT_AB_2_001"
+      },
+      "step": 6,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

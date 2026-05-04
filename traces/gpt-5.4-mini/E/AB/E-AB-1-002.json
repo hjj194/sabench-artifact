@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Which stakeholders list should I send it to: the internal one or the all-stakeholders list?",
+  "task_id": "E-AB-1-002",
+  "template_id": "E-AB-1",
+  "tool_calls": []
+}

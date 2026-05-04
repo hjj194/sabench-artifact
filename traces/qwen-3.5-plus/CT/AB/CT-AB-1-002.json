@@ -1,0 +1,28 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "I found the email from client@client.com about the \"Login loop issue\" and the related ticket \"T-api-CT_AB_1_002\" (currently open, high priority). \n\nWhat specific follow-up action would you like me to take? For example:\n- Reply to the client's email?\n- Add a comment to the ticket?\n- Update the ticket status?\n- Something else?",
+  "task_id": "CT-AB-1-002",
+  "template_id": "CT-AB-1",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_api_CT_AB_1_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "T-api-CT_AB_1_002"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

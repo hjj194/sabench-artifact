@@ -1,0 +1,23 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Done \u2014 the Apr 22 Weekly Launch Review has been rescheduled to 10:00 AM.",
+  "task_id": "D-CH-2-003",
+  "template_id": "D-CH-2",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "date": "Apr 22",
+        "duration": 60,
+        "id": "STD-D_CH_2_003",
+        "status": "scheduled",
+        "time": "10:00",
+        "title": "Weekly Launch Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

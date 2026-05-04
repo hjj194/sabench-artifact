@@ -1,0 +1,30 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": " Done. I've replied to Riley Stone at riley@client.com acknowledging the urgent webhook retry issue and confirming our team is actively investigating.",
+  "task_id": "E-CH-2-002",
+  "template_id": "E-CH-2",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ext-E_CH_2_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Riley,\n\nThank you for reporting this urgent issue with webhook retries. I understand this is blocking your users and we are treating it with high priority.\n\nI've reviewed your complaint and our team is actively investigating the webhook retry failures. We'll provide an update with a timeline for resolution within the next few hours.\n\nIf you have any additional details about the specific failures you're experiencing, please share them to help us expedite the fix.\n\nBest regards",
+        "id": "e-ext-E_CH_2_002",
+        "to": "riley@client.com"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

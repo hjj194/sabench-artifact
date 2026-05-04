@@ -1,0 +1,49 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have moved the \"Acme Partner Onboarding\" meeting to 3 PM.",
+  "task_id": "CT-MT-3-001",
+  "template_id": "CT-MT-3",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Acme partner onboarding meeting"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Acme Partner Onboarding"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-CT_MT_3_001"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "EVT-ct-target-CT_MT_3_001",
+        "time": "15:00"
+      },
+      "step": 3,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

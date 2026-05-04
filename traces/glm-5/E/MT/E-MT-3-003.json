@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Closed the \"Northstar Data Export escalation\" ticket (T-client-E_MT_3_003).",
+  "task_id": "E-MT-3-003",
+  "template_id": "E-MT-3",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "entity_id": "T-client-E_MT_3_003",
+        "status": "closed"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

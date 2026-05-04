@@ -1,0 +1,19 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done.",
+  "task_id": "E-OR-3-002",
+  "template_id": "E-OR-3",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Riley,\n\nThank you for reaching out. We received your Brightlane partner question and will review it today.\n\nBest regards",
+        "id": "e-ext-E_OR_3_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

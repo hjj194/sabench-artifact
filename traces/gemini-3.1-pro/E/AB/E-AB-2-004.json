@@ -1,0 +1,18 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Which email should I reply to? There is one from priya@vendor.com and another from ops@client.com.",
+  "task_id": "E-AB-2-004",
+  "template_id": "E-AB-2",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Helio launch contact"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

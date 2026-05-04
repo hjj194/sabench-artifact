@@ -1,0 +1,21 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Done \u2014 Priya Nair (priya@vendor.com) has been invited to the Helio Planning Review on Apr 29 at 13:00.",
+  "task_id": "E-MT-2-004",
+  "template_id": "E-MT-2",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "priya@vendor.com"
+        ],
+        "id": "EVT-E_MT_2_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

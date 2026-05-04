@@ -1,0 +1,21 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. I've invited Sam Rivera (sam@partner.com) from the partner team to the Northstar Launch Review event.",
+  "task_id": "E-AB-3-003",
+  "template_id": "E-AB-3",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "sam@partner.com"
+        ],
+        "entity_id": "EVT-E_AB_3_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

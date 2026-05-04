@@ -1,0 +1,24 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Scheduled.",
+  "task_id": "E-OR-2-003",
+  "template_id": "E-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "sam@partner.com"
+        ],
+        "description": "Northstar client call with Sam Rivera",
+        "duration": 30,
+        "time": "Apr 28, 2026 9:30 AM",
+        "title": "Northstar client call"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

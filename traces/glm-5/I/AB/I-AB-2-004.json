@@ -1,0 +1,7 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "There are two tickets with the title \"API timeout issue\":\n\n1. **T-A-I_AB_2_004** - currently assigned to Alice (high priority)\n2. **T-B-I_AB_2_004** - currently assigned to Bob (medium priority)\n\nWhich ticket would you like to assign to Priya?",
+  "task_id": "I-AB-2-004",
+  "template_id": "I-AB-2",
+  "tool_calls": []
+}

@@ -1,0 +1,20 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Scheduled.",
+  "task_id": "CT-OR-2-002",
+  "template_id": "CT-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "duration": 30,
+        "time": "Apr 27, 2026 10:30 AM",
+        "title": "Personal follow-up: Webhook Retry follow-up"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

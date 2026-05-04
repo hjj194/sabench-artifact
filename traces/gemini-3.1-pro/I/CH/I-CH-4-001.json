@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "What would you like me to say in the reply to the customer?",
+  "task_id": "I-CH-4-001",
+  "template_id": "I-CH-4",
+  "tool_calls": []
+}

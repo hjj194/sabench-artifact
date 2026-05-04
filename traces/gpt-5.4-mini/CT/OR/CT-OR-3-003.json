@@ -1,0 +1,31 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Created a high priority ticket titled \u201cData Export request.\u201d",
+  "task_id": "CT-OR-3-003",
+  "template_id": "CT-OR-3",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-CT_OR_3_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "body": "Created from email: Data Export request (from sam@partner.com, Apr 21 14:00).",
+        "priority": "high",
+        "status": "open",
+        "title": "Data Export request"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

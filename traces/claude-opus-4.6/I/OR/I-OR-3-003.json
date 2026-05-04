@@ -1,0 +1,23 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Done! I've scheduled **Vendor Check-in** for **April 22 at 10:00 AM**.",
+  "task_id": "I-OR-3-003",
+  "template_id": "I-OR-3",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "User requested scheduling a Vendor Check-in for Apr 22 at 10:00 AM"
+        },
+        "time": "Apr 22 10:00",
+        "title": "Vendor Check-in"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

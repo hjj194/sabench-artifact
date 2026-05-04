@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Which Brightlane launch contact should I reply to: Riley Stone (`riley@client.com`) or `ops@client.com`?",
+  "task_id": "E-AB-2-002",
+  "template_id": "E-AB-2",
+  "tool_calls": []
+}

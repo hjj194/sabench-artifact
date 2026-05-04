@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have moved the \"API Timeout Customer Follow-up\" meeting to 3 PM, as it corresponds to the API timeout ticket.",
+  "task_id": "CT-MT-2-001",
+  "template_id": "CT-MT-2",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "EVT-ct-target-CT_MT_2_001",
+        "time": "15:00"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

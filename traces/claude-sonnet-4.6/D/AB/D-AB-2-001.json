@@ -1,0 +1,30 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "Done. Forwarded Alice's most recent Q3 Plan email (Apr 21) to Morgan Lee (manager@co.com).",
+  "task_id": "D-AB-2-001",
+  "template_id": "D-AB-2",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Q3 Plan",
+        "user": "alice"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "forward",
+      "agent_message": "",
+      "args": {
+        "id": "e_B_D_AB_2_001",
+        "to": "manager@co.com"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "Done \u2014 \"Launch Review\" has been scheduled for April 23 at 10:00 AM.",
+  "task_id": "CT-OR-1-004",
+  "template_id": "CT-OR-1",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "date": "Apr 23",
+        "time": "10:00",
+        "title": "Launch Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

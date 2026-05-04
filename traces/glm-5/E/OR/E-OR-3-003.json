@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. I replied to Sam Rivera's email confirming receipt and that we'll review the Northstar partner question today.",
+  "task_id": "E-OR-3-003",
+  "template_id": "E-OR-3",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Sam,\n\nWe received your Northstar partner question and will review it today. Thanks for reaching out!\n\nBest regards",
+        "id": "e-ext-E_OR_3_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

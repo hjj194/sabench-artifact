@@ -1,0 +1,22 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "The email is from morgan@vendor.com with the subject \"Launch Plan Final.\" However, you haven't specified what the reply should say. What would you like me to include in the reply?",
+  "task_id": "I-OR-1-004",
+  "template_id": "I-OR-1",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "Fetching Morgan's vendor email about Launch Plan Final to read its content before replying"
+        },
+        "id": "e_I_OR_1_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

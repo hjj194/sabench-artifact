@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "I see two scheduled \u201cSupport Standup\u201d events: Apr 22 and Apr 23. Which one should I cancel?",
+  "task_id": "I-MT-3-005",
+  "template_id": "I-MT-3",
+  "tool_calls": []
+}

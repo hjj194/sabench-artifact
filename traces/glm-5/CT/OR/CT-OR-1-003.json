@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. I've scheduled \"Vendor Check-in\" for April 23, 2026 at 10:00 AM on your calendar.",
+  "task_id": "CT-OR-1-003",
+  "template_id": "CT-OR-1",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "Apr 23, 2026 10:00 AM",
+        "title": "Vendor Check-in"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've replied to Morgan Lee's email.",
+  "task_id": "D-MT-2-004",
+  "template_id": "D-MT-2",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "We're aligned on the proposed vendor support coverage and can discuss pricing next week.",
+        "id": "e_D_MT_2_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

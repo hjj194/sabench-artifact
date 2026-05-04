@@ -1,0 +1,20 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Done \u2014 sent the status update to Riley Stone at riley@client.com.",
+  "task_id": "E-CH-3-002",
+  "template_id": "E-CH-3",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Riley,\n\nJust wanted to give you a quick update: the webhook retry investigation is still in progress. We will have an update for you later today.\n\nThanks for your patience.\n\nBest regards",
+        "title": "Webhook Retry Investigation \u2013 Status Update",
+        "to": "riley@client.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

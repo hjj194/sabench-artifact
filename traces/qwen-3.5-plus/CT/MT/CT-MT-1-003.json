@@ -1,0 +1,19 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "Done. Ticket T-ct-target-CT_MT_1_003 (\"Data Export investigation\") is now set to high priority.",
+  "task_id": "CT-MT-1-003",
+  "template_id": "CT-MT-1",
+  "tool_calls": [
+    {
+      "action": "set_priority",
+      "agent_message": "",
+      "args": {
+        "id": "T-ct-target-CT_MT_1_003",
+        "priority": "high"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

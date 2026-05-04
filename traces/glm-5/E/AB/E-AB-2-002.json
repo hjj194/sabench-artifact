@@ -1,0 +1,7 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "There are two emails with subject \"Brightlane launch contact\" in the inbox:\n1. From riley@client.com (Apr 21 09:00)\n2. From ops@client.com (Apr 21 09:10)\n\nWhich one should I reply to?",
+  "task_id": "E-AB-2-002",
+  "template_id": "E-AB-2",
+  "tool_calls": []
+}

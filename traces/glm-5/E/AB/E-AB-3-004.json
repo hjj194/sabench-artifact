@@ -1,0 +1,7 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "I see two partner teams associated with the Helio project:\n1. **Helio client partner team** (priya@vendor.com, ops@client.com)\n2. **Helio vendor partner team** (ops@vendor.com, support@vendor.com)\n\nWhich team would you like me to invite, or should I invite both?",
+  "task_id": "E-AB-3-004",
+  "template_id": "E-AB-3",
+  "tool_calls": []
+}

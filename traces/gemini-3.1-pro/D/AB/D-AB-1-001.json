@@ -1,0 +1,28 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have successfully canceled the April 22 occurrence of the \"Weekly Standup\".",
+  "task_id": "D-AB-1-001",
+  "template_id": "D-AB-1",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Weekly Standup"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-occ-D_AB_1_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

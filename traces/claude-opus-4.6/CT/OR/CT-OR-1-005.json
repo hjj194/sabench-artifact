@@ -1,0 +1,23 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Done! I've scheduled **Support Handoff** for **Apr 23 at 10:00 AM**. No attendees were added since none were specified \u2014 let me know if you'd like to invite anyone.",
+  "task_id": "CT-OR-1-005",
+  "template_id": "CT-OR-1",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "User requested scheduling a Support Handoff meeting on Apr 23 at 10:00 AM"
+        },
+        "time": "Apr 23 10:00",
+        "title": "Support Handoff"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

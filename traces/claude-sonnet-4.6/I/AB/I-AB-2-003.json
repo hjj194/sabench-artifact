@@ -1,0 +1,7 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "I see there are two tickets titled \"API timeout issue\" (T-A-I_AB_2_003 assigned to Alice, and T-B-I_AB_2_003 assigned to Bob). Which one should I assign to Morgan Lee, or should I assign both?",
+  "task_id": "I-AB-2-003",
+  "template_id": "I-AB-2",
+  "tool_calls": []
+}

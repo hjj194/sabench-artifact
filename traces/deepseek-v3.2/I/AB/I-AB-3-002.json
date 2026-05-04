@@ -1,0 +1,28 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "I can see there are two contract emails from Alice at the vendor (alice@vendor.com). The user request says \"the contract email\" but doesn't specify which version. Let me ask for clarification to ensure I forward the correct one.\n\nAre you referring to \"Contract - Version A\" (received Apr 21 09:00) or \"Contract - Version B\" (received Apr 21 15:00) from alice@vendor.com that you'd like me to forward to Priya Nair?",
+  "task_id": "I-AB-3-002",
+  "template_id": "I-AB-3",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_A_I_AB_3_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_B_I_AB_3_002"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "Should this be a new event, or would you like to move the existing \"Weekly Planning Sync\" from 9 AM to 10 AM? Also, please let me know who should be invited.",
+  "task_id": "I-CH-3-002",
+  "template_id": "I-CH-3",
+  "tool_calls": []
+}

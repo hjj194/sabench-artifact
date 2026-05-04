@@ -1,0 +1,7 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "I see two \"Northstar Customer Sync\" events - one on Apr 28 and one on Apr 30. Which one(s) would you like me to move to 4 PM?",
+  "task_id": "CT-AB-3-003",
+  "template_id": "CT-AB-3",
+  "tool_calls": []
+}

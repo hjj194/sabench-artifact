@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've replied to Alice's most recent email.",
+  "task_id": "I-AB-1-002",
+  "template_id": "I-AB-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "We'll review it and get back to you shortly.",
+        "id": "e_B_I_AB_1_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Done. I've canceled the April 22 Weekly Standup occurrence. The recurring series continues with future occurrences on April 29 and May 6 remaining scheduled.",
+  "task_id": "D-AB-1-002",
+  "template_id": "D-AB-1",
+  "tool_calls": [
+    {
+      "action": "list",
+      "agent_message": "",
+      "args": {},
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-occ-D_AB_1_002"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

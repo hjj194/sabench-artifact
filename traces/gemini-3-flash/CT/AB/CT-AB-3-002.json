@@ -1,0 +1,18 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "I see two Brightlane Customer Sync events (April 27 and April 30). Would you like me to move both of them to 10:30 AM, or just a specific one?",
+  "task_id": "CT-AB-3-002",
+  "template_id": "CT-AB-3",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-CT_AB_3_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

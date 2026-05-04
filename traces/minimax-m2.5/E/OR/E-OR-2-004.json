@@ -1,0 +1,24 @@
+{
+  "agent_id": "minimax-m2.5",
+  "final_response": "Done! I've scheduled a 30-minute \"Helio client call with Priya Nair\" on April 29, 2026 at 1:00 PM. Priya Nair (priya@vendor.com) has been invited.",
+  "task_id": "E-OR-2-004",
+  "template_id": "E-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "priya@vendor.com"
+        ],
+        "date": "Apr 29",
+        "duration": 30,
+        "time": "13:00",
+        "title": "Helio client call with Priya Nair"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

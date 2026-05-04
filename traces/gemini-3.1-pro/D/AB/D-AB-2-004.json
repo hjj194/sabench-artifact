@@ -1,0 +1,48 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "There are two emails from Alice regarding the \"Q3 Plan\" (one sent on Apr 19 and another on Apr 21). Which one would you like me to forward?",
+  "task_id": "D-AB-2-004",
+  "template_id": "D-AB-2",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "subject:\"Q3 Plan\" from:alice"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Q3 Plan"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_A_D_AB_2_004"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_B_D_AB_2_004"
+      },
+      "step": 3,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Done. I've replied to Bob's email about the Q3 Plan, letting him know I'll review it this afternoon. The email has also been marked as read.",
+  "task_id": "D-MT-2-001",
+  "template_id": "D-MT-2",
+  "tool_calls": [
+    {
+      "action": "get_thread",
+      "agent_message": "",
+      "args": {
+        "thread_id": "THR-D_MT_2_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_D_MT_2_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Bob,\n\nThanks for sending over the Q3 Plan. I'll review it this afternoon and get back to you with any feedback.\n\nBest regards",
+        "thread_id": "THR-D_MT_2_001"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "mark_read",
+      "agent_message": "",
+      "args": {
+        "id": "e_D_MT_2_001"
+      },
+      "step": 3,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

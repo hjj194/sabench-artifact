@@ -1,0 +1,20 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Done \u2014 I moved this week\u2019s release standup to 10:00 AM.",
+  "task_id": "D-MT-1-004",
+  "template_id": "D-MT-1",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-D_MT_1_004",
+        "time": "10:00",
+        "title": "Weekly Release Standup"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

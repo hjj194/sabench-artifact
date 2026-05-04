@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Which stakeholders distribution list should I use? I see an internal list and one that includes clients.",
+  "task_id": "E-AB-1-004",
+  "template_id": "E-AB-1",
+  "tool_calls": []
+}

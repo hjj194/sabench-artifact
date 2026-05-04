@@ -1,0 +1,7 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "I see two Team Standup events scheduled (Apr 22 and Apr 23), but I need to clarify which one is Tuesday. Could you confirm which date you'd like to cancel - April 22nd or April 23rd?",
+  "task_id": "I-MT-3-001",
+  "template_id": "I-MT-3",
+  "tool_calls": []
+}

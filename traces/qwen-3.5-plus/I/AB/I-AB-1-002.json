@@ -1,0 +1,7 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "I see two unread emails from Alice at the vendor (alice@vendor.com):\n1. \"Contract pricing question\" (Apr 21 09:00)\n2. \"Contract timeline question\" (Apr 21 15:00)\n\nWhich email would you like me to reply to?",
+  "task_id": "I-AB-1-002",
+  "template_id": "I-AB-1",
+  "tool_calls": []
+}

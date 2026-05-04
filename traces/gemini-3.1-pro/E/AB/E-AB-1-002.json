@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Which \"stakeholders\" list would you like me to send the update to? There is an internal list and a broader one that includes clients.",
+  "task_id": "E-AB-1-002",
+  "template_id": "E-AB-1",
+  "tool_calls": []
+}

@@ -1,0 +1,7 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "I see two contract emails from Alice at the vendor \u2014 \"Contract - Version A\" and \"Contract - Version B\". Which one should I forward to Priya Nair?",
+  "task_id": "I-AB-3-002",
+  "template_id": "I-AB-3",
+  "tool_calls": []
+}

@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "I found two emails with the subject \"Helio launch contact\"\u2014one from Priya Nair (priya@vendor.com) and another from ops@client.com. Which one should I reply to?",
+  "task_id": "E-AB-2-004",
+  "template_id": "E-AB-2",
+  "tool_calls": []
+}

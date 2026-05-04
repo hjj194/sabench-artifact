@@ -1,0 +1,19 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. I've scheduled \"Launch Review\" for April 22, 2026 at 10:00 AM.",
+  "task_id": "I-OR-3-004",
+  "template_id": "I-OR-3",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "2026-04-22T10:00:00",
+        "title": "Launch Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

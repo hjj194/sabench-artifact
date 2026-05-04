@@ -1,0 +1,20 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Done \u2014 I updated the Apr 22 Planning Sync to 10:00 AM.",
+  "task_id": "I-OR-3-002",
+  "template_id": "I-OR-3",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-I_OR_3_002",
+        "time": "Apr 22 10:00 AM",
+        "title": "Planning Sync"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

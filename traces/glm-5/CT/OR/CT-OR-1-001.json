@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. The \"Kickoff Meeting\" has been scheduled for April 23 at 10:00 AM. Let me know if you'd like to add attendees or set a duration.",
+  "task_id": "CT-OR-1-001",
+  "template_id": "CT-OR-1",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "April 23 10:00",
+        "title": "Kickoff Meeting"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

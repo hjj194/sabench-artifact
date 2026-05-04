@@ -1,0 +1,20 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've sent that update to Sam Rivera.",
+  "task_id": "E-CH-3-003",
+  "template_id": "E-CH-3",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "The data export investigation is still in progress and we will update today.",
+        "title": "Status Update: Data Export Investigation",
+        "to": "sam@partner.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've set the priority of the mobile push notification bug ticket (T-I_MT_2_004) to high.",
+  "task_id": "I-MT-2-004",
+  "template_id": "I-MT-2",
+  "tool_calls": [
+    {
+      "action": "set_priority",
+      "agent_message": "",
+      "args": {
+        "id": "T-I_MT_2_004",
+        "priority": "high"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Done \u2014 I replied to the customer asking for the missing diagnostics.",
+  "task_id": "CT-AB-2-003",
+  "template_id": "CT-AB-2",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Sam,\n\nThanks for the update. To help us investigate the data export issue, could you please send the missing diagnostics?\n\nPlease include:\n- the export job or request ID\n- approximate time of the failure\n- any error message or screenshot\n- relevant logs or screenshots from the export flow\n- steps to reproduce, if available\n\nOnce we have those details, we can continue the investigation.\n\nBest,\nSupport",
+        "id": "e-ct-a-CT_AB_2_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

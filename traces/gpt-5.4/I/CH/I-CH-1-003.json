@@ -1,0 +1,19 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "Replied to the billing email and let them know Support Ops is reviewing it.",
+  "task_id": "I-CH-1-003",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi,\n\nThanks for flagging this. Our Support Ops team is currently reviewing the usage charge exception and will follow up once we have an update.\n\nBest,\n",
+        "id": "e_invoice_I_CH_1_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "The email has no body content returned. What would you like to say in your reply to vendor-ap@vendor.com regarding the invoice exception for April services?",
+  "task_id": "I-CH-1-001",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_invoice_I_CH_1_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

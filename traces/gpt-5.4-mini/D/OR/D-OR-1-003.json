@@ -1,0 +1,23 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Done \u2014 I invited Morgan Lee to the Apr 28 Project Review occurrence.",
+  "task_id": "D-OR-1-003",
+  "template_id": "D-OR-1",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "manager@co.com"
+        ],
+        "id": "OCC-D_OR_1_003",
+        "time": "Apr 28 09:30",
+        "title": "Project Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

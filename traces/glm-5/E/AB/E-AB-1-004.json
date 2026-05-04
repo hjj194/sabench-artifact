@@ -1,0 +1,7 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "I see two stakeholder distribution lists available:\n1. **Internal stakeholders** (manager@co.com, team@co.com)\n2. **All stakeholders** (includes internal team + client_a@client.com, client_b@client.com)\n\nWhich group should I send the email to?",
+  "task_id": "E-AB-1-004",
+  "template_id": "E-AB-1",
+  "tool_calls": []
+}

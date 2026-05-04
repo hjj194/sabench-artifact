@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "There are two open tickets about the API timeout issue: one currently assigned to Alice and another assigned to Bob. Which one would you like me to reassign to Carol?",
+  "task_id": "I-AB-2-002",
+  "template_id": "I-AB-2",
+  "tool_calls": []
+}

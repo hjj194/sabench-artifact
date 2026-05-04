@@ -1,0 +1,28 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "I can see the email subject \"Invoice exception for April services\" from vendor-ap@vendor.com, but I don't have access to the email body content. To reply appropriately, I need to know:\n\n**What would you like to say in your reply?** (e.g., acknowledge the exception, request clarification, provide resolution steps, etc.)",
+  "task_id": "I-CH-1-001",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_invoice_I_CH_1_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "get_thread",
+      "agent_message": "",
+      "args": {
+        "thread_id": "e_invoice_I_CH_1_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

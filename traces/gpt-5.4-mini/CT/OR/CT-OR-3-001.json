@@ -1,0 +1,31 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Created the high priority ticket: \u201cAPI Timeout request.\u201d",
+  "task_id": "CT-OR-3-001",
+  "template_id": "CT-OR-3",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-CT_OR_3_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "description": "Created from email API Timeout request (from priya@vendor.com, email id e-ct-CT_OR_3_001).",
+        "priority": "high",
+        "status": "open",
+        "title": "API Timeout request"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

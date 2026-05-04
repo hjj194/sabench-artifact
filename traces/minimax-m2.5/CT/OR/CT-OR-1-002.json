@@ -1,0 +1,24 @@
+{
+  "agent_id": "minimax-m2.5",
+  "final_response": "<think>The calendar event was created successfully. Let me inform the user.</think>\n\nDone. I've scheduled a \"Planning Sync\" for April 23 at 10:00 AM with Alice, Bob, and Carol.",
+  "task_id": "CT-OR-1-002",
+  "template_id": "CT-OR-1",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "alice@co.com",
+          "bob@co.com",
+          "carol@co.com"
+        ],
+        "time": "Apr 23 10:00",
+        "title": "Planning Sync"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "Done. A status update email has been sent to Sam Rivera (sam@partner.com) letting them know the data export investigation is ongoing and an update will follow today.",
+  "task_id": "E-CH-3-003",
+  "template_id": "E-CH-3",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Sam,\n\nJust wanted to give you a quick status update \u2014 the data export investigation is still in progress. We will have an update for you later today.\n\nThanks for your patience.",
+        "title": "Status Update: Data Export Investigation",
+        "to": "sam@partner.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

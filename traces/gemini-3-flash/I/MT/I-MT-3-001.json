@@ -1,0 +1,28 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "",
+  "task_id": "I-MT-3-001",
+  "template_id": "I-MT-3",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Team Standup"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "evt-standup-apr23-I_MT_3_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

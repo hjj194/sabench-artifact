@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've closed the \"Login Loop follow-up\" ticket (T-child-D_OR_2_004).",
+  "task_id": "D-OR-2-004",
+  "template_id": "D-OR-2",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-child-D_OR_2_004",
+        "status": "closed"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

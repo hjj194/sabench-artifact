@@ -1,0 +1,26 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "There are two contract emails from Alice: \"Contract - Version A\" and \"Contract - Version B.\" Which one would you like me to forward to Morgan Lee?",
+  "task_id": "I-AB-3-001",
+  "template_id": "I-AB-3",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Alice contract"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "list",
+      "agent_message": "",
+      "args": {},
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

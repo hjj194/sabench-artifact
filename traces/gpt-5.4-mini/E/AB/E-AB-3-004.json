@@ -1,0 +1,24 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Invited the partner team to Helio Launch Review.",
+  "task_id": "E-AB-3-004",
+  "template_id": "E-AB-3",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "ops@vendor.com",
+          "support@vendor.com"
+        ],
+        "entity_id": "EVT-E_AB_3_004",
+        "time": "Apr 29 13:00",
+        "title": "Helio Launch Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

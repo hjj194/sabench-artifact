@@ -1,0 +1,20 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have sent the status update email to Priya Nair.",
+  "task_id": "E-CH-3-004",
+  "template_id": "E-CH-3",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "The login loop investigation is still in progress and we will update today.",
+        "subject": "Status update",
+        "to": "priya@vendor.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

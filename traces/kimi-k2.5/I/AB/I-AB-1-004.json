@@ -1,0 +1,28 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "There are two emails from Alice at the vendor. Which one would you like me to reply to?\n1. \"Renewal pricing note\" (Apr 21 09:00)\n2. \"Renewal timeline note\" (Apr 21 15:00)",
+  "task_id": "I-AB-1-004",
+  "template_id": "I-AB-1",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_A_I_AB_1_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_B_I_AB_1_004"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

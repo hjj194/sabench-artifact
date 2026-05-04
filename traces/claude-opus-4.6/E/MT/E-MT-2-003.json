@@ -1,0 +1,21 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Done \u2014 Sam Rivera (sam@partner.com) has been invited to the Northstar Planning Review on Apr 28 at 09:30.",
+  "task_id": "E-MT-2-003",
+  "template_id": "E-MT-2",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "sam@partner.com"
+        ],
+        "id": "EVT-E_MT_2_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

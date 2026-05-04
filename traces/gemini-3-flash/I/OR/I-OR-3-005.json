@@ -1,0 +1,39 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've scheduled the \"Support Handoff\" for April 22 at 10:00 AM.",
+  "task_id": "I-OR-3-005",
+  "template_id": "I-OR-3",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Support Handoff"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Support Handoff"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "Apr 22, 2025, 10:00 AM",
+        "title": "Support Handoff"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

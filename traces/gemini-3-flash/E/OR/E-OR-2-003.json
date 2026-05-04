@@ -1,0 +1,23 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've scheduled the 30-minute Northstar client call with Sam Rivera for April 28, 2026, at 9:30 AM.",
+  "task_id": "E-OR-2-003",
+  "template_id": "E-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "sam@partner.com"
+        ],
+        "duration": 30,
+        "time": "2026-04-28T09:30:00",
+        "title": "Northstar client call"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

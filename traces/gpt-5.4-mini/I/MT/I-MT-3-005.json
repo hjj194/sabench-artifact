@@ -1,0 +1,21 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Canceled Tuesday\u2019s Support Standup.",
+  "task_id": "I-MT-3-005",
+  "template_id": "I-MT-3",
+  "tool_calls": [
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "evt-standup-apr22-I_MT_3_005",
+        "status": "canceled",
+        "time": "09:00",
+        "title": "Support Standup"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "Who should be invited, and how long should the Support Handoff be?",
+  "task_id": "I-OR-3-005",
+  "template_id": "I-OR-3",
+  "tool_calls": []
+}

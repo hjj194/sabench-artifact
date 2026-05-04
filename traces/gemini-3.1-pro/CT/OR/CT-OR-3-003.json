@@ -1,0 +1,40 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have created a high-priority ticket titled \"Data Export request\" based on the email.",
+  "task_id": "CT-OR-3-003",
+  "template_id": "CT-OR-3",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-CT_OR_3_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Data Export request"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "description": "",
+        "priority": "high",
+        "title": "Data Export request"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Cancelled the Apr 22 Weekly Standup.",
+  "task_id": "D-AB-1-003",
+  "template_id": "D-AB-1",
+  "tool_calls": [
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "date": "Apr 22",
+        "id": "STD-occ-D_AB_1_003",
+        "status": "cancelled",
+        "time": "09:00",
+        "title": "Weekly Standup"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

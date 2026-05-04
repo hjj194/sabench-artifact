@@ -1,0 +1,29 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have moved this week's Weekly Release Standup to 10:00 am.",
+  "task_id": "D-MT-1-004",
+  "template_id": "D-MT-1",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "release standup"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-D_MT_1_004",
+        "time": "10:00"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

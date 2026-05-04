@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "There are multiple tickets titled \"API timeout issue\" (one currently assigned to Alice Chen and another to Bob Smith). Which ticket would you like to reassign to Morgan Lee?",
+  "task_id": "I-AB-2-003",
+  "template_id": "I-AB-2",
+  "tool_calls": []
+}

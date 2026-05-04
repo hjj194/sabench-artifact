@@ -1,0 +1,20 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Sent to Sam Rivera.",
+  "task_id": "E-CH-3-003",
+  "template_id": "E-CH-3",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Sam,\n\nThe data export investigation is still in progress, and we\u2019ll update you today.\n\nBest,\n[Your Name]",
+        "title": "Status update: data export investigation",
+        "to": "sam@partner.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

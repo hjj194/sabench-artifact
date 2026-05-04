@@ -1,0 +1,31 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have successfully invited Morgan Lee to the Apr 24 Project Review occurrence.",
+  "task_id": "D-OR-1-001",
+  "template_id": "D-OR-1",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Project Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "manager@co.com"
+        ],
+        "entity_id": "OCC-D_OR_1_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

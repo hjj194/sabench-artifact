@@ -1,0 +1,30 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. Scheduled \"Vendor Check-in\" for Apr 22 at 10:00 AM.",
+  "task_id": "I-OR-3-003",
+  "template_id": "I-OR-3",
+  "tool_calls": [
+    {
+      "action": "check_conflicts",
+      "agent_message": "",
+      "args": {
+        "time": "Apr 22 10:00",
+        "title": "Vendor Check-in"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "time": "Apr 22 10:00",
+        "title": "Vendor Check-in"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

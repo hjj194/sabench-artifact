@@ -1,0 +1,39 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. I've replied to the urgent outage complaint from customer@client.com, acknowledging the issue and assuring them the team is investigating with highest priority. The email has also been marked as read.",
+  "task_id": "E-CH-1-001",
+  "template_id": "E-CH-1",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_complaint_E_CH_1_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Dear Customer,\n\nThank you for bringing this urgent matter to our attention. I sincerely apologize for the inconvenience caused by the integration outage.\n\nI understand this is critically impacting your users, and we are treating this with the highest priority. Our technical team has been notified and is actively investigating the issue. We will work to restore the integration as quickly as possible.\n\nI will follow up with you shortly with an update on our progress. Please let me know if you have any additional details about when the issue started or any error messages you've encountered.\n\nBest regards",
+        "id": "e_complaint_E_CH_1_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "mark_read",
+      "agent_message": "",
+      "args": {
+        "id": "e_complaint_E_CH_1_001"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

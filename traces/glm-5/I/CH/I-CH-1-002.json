@@ -1,0 +1,28 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "I found the email about \"Service credit exception\" from ops@vendor.com, but I need to know what you'd like to say in your reply. What message would you like to send?",
+  "task_id": "I-CH-1-002",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_invoice_I_CH_1_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "get_thread",
+      "agent_message": "",
+      "args": {
+        "id": "e_invoice_I_CH_1_002"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

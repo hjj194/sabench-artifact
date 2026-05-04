@@ -1,0 +1,20 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've scheduled your 30-minute event \"Personal follow-up: Login Loop follow-up\" for April 29, 2026, at 9:00 AM.",
+  "task_id": "CT-OR-2-004",
+  "template_id": "CT-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "duration": 30,
+        "time": "2026-04-29T09:00:00Z",
+        "title": "Personal follow-up: Login Loop follow-up"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

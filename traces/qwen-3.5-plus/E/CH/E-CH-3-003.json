@@ -1,0 +1,20 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "Done. Sent a status update to Sam Rivera letting them know the data export investigation is still in progress and we'll update today.",
+  "task_id": "E-CH-3-003",
+  "template_id": "E-CH-3",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Sam,\n\nThe data export investigation is still in progress. We will update you today with more information.\n\nBest regards",
+        "title": "Status Update: Data Export Investigation",
+        "to": "[\"sam@partner.com\"]"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

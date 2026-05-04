@@ -1,0 +1,23 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Done \u2014 the priority on ticket **T-I_MT_2_003** (\"Search layout bug - mobile\") has been raised to **high**.",
+  "task_id": "I-MT-2-003",
+  "template_id": "I-MT-2",
+  "tool_calls": [
+    {
+      "action": "set_priority",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "User requested raising priority of the open mobile search layout bug ticket to high"
+        },
+        "id": "T-I_MT_2_003",
+        "priority": "high"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

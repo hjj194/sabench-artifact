@@ -1,0 +1,21 @@
+{
+  "agent_id": "minimax-m2.5",
+  "final_response": "<think>The invitation was sent successfully. Sam Rivera has been invited to the Northstar Planning Review event.</think>\n\nDone. Sam Rivera has been invited to the \"Northstar Planning Review\" event scheduled for April 28 at 09:30.",
+  "task_id": "E-MT-2-003",
+  "template_id": "E-MT-2",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "sam@partner.com"
+        ],
+        "id": "EVT-E_MT_2_003"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

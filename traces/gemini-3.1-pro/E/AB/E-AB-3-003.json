@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Which partner team would you like to invite? I see both a \"Northstar client partner team\" and a \"Northstar vendor partner team\".",
+  "task_id": "E-AB-3-003",
+  "template_id": "E-AB-3",
+  "tool_calls": []
+}

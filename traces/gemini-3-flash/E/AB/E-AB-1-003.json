@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "I've found two distribution lists named \"stakeholders\" (one internal and one including clients). Which one should I send the email to?",
+  "task_id": "E-AB-1-003",
+  "template_id": "E-AB-1",
+  "tool_calls": []
+}

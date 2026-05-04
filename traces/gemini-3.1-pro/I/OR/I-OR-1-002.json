@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have replied to Riley's email about the Security Review Final, letting them know that it has been received and will be reviewed today.",
+  "task_id": "I-OR-1-002",
+  "template_id": "I-OR-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "we've received it and will review it today.",
+        "id": "e_I_OR_1_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

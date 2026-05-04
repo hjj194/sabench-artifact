@@ -1,0 +1,27 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Reply sent to Sam Rivera confirming receipt of the Northstar data export update and that we'll review it today.",
+  "task_id": "E-MT-1-003",
+  "template_id": "E-MT-1",
+  "tool_calls": [
+    {
+      "action": "list",
+      "agent_message": "",
+      "args": {},
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Sam,\n\nWe've received the Northstar data export update and will review it today.\n\nBest regards",
+        "id": "e-ext-target-E_MT_1_003"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

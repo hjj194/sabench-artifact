@@ -1,0 +1,20 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "Reply sent to Riley Stone confirming we received the Brightlane webhook retry update and will review it today.",
+  "task_id": "E-MT-1-002",
+  "template_id": "E-MT-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Riley,\n\nWe received the Brightlane webhook retry update and will review it today.\n\nThanks,",
+        "id": "e-ext-target-E_MT_1_002",
+        "text": "Hi Riley,\n\nWe received the Brightlane webhook retry update and will review it today.\n\nThanks,"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

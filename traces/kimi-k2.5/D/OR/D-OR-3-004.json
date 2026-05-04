@@ -1,0 +1,20 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. Replied to the Login Loop renewal exception message from priya@vendor.com confirming receipt and review today.",
+  "task_id": "D-OR-3-004",
+  "template_id": "D-OR-3",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "We received your message regarding the Login Loop renewal exception and will review it today. We'll follow up with any questions or updates shortly.",
+        "id": "e-target-D_OR_3_004",
+        "thread_id": "THR-D_OR_3_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

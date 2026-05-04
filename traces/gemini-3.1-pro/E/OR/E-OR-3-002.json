@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I've replied to Riley Stone's email about the Brightlane partner question, confirming that it was received and will be reviewed today.",
+  "task_id": "E-OR-3-002",
+  "template_id": "E-OR-3",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "We received your question and will review it today.",
+        "id": "e-ext-E_OR_3_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

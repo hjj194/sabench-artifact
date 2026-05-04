@@ -1,0 +1,18 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Which \"Q3 Plan\" email would you like to forward: the one from April 19 at 09:00, or the one from April 21 at 15:00?",
+  "task_id": "D-AB-2-002",
+  "template_id": "D-AB-2",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Q3 Plan"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

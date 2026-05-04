@@ -1,0 +1,7 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "I found two emails from Alice at the vendor about contracts - \"Contract - Version A\" and \"Contract - Version B\". Which one would you like me to forward to Priya Nair?",
+  "task_id": "I-AB-3-002",
+  "template_id": "I-AB-3",
+  "tool_calls": []
+}

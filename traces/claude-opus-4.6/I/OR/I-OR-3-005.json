@@ -1,0 +1,7 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "\n\nWho should be invited to the Support Handoff meeting, and how long should it last?",
+  "task_id": "I-OR-3-005",
+  "template_id": "I-OR-3",
+  "tool_calls": []
+}

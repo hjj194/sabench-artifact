@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Which Acme customer sync would you like to move to 3 PM? The one on Apr 24 or the one on Apr 30?",
+  "task_id": "CT-AB-3-001",
+  "template_id": "CT-AB-3",
+  "tool_calls": []
+}

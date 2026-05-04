@@ -1,0 +1,38 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "Scheduled.",
+  "task_id": "E-OR-2-002",
+  "template_id": "E-OR-2",
+  "tool_calls": [
+    {
+      "action": "check_conflicts",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "riley@client.com"
+        ],
+        "duration": 30,
+        "time": "2026-04-27 14:00",
+        "title": "Brightlane client call"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "riley@client.com"
+        ],
+        "duration": 30,
+        "time": "2026-04-27 14:00",
+        "title": "Brightlane client call"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

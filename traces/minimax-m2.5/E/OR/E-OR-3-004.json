@@ -1,0 +1,19 @@
+{
+  "agent_id": "minimax-m2.5",
+  "final_response": "Done. I've replied to Priya Nair's email confirming that we received her Helio partner question and will review it today.",
+  "task_id": "E-OR-3-004",
+  "template_id": "E-OR-3",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Priya,\n\nThank you for reaching out. We have received your Helio partner question and will review it today.\n\nWe'll get back to you shortly with our response.\n\nBest regards",
+        "id": "e-ext-E_OR_3_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Moved the Northstar Partner Onboarding meeting to 4:00 PM on Apr 28.",
+  "task_id": "CT-MT-3-003",
+  "template_id": "CT-MT-3",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "date": "Apr 28",
+        "id": "EVT-ct-target-CT_MT_3_003",
+        "time": "16:00",
+        "title": "Northstar Partner Onboarding"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

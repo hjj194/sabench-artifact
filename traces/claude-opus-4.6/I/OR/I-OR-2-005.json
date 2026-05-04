@@ -1,0 +1,23 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "The ticket **\"Settings save bug - mobile\"** (T-I_OR_2_005) has been closed.",
+  "task_id": "I-OR-2-005",
+  "template_id": "I-OR-2",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "User requested closing the ticket titled 'Settings save bug - mobile'"
+        },
+        "id": "T-I_OR_2_005",
+        "status": "closed"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

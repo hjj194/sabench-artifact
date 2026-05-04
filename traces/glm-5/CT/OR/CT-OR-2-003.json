@@ -1,0 +1,20 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done! I've scheduled a 30-minute event titled **\"Personal follow-up: Data Export follow-up\"** on **April 28, 2026 at 4:00 PM**.",
+  "task_id": "CT-OR-2-003",
+  "template_id": "CT-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "duration": 30,
+        "time": "2026-04-28 16:00",
+        "title": "Personal follow-up: Data Export follow-up"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

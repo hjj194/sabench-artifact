@@ -1,0 +1,20 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've sent the launch update to the stakeholders list.",
+  "task_id": "E-AB-1-002",
+  "template_id": "E-AB-1",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "The launch is on track and I\u2019ll share more details tomorrow.",
+        "title": "Launch Update",
+        "to": "stakeholders"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": " I see two events titled \"Acme Customer Sync\" - one on Apr 24 at 11:00 and one on Apr 30 at 11:00. Which one would you like to move to 3 PM, or do you want to move both?",
+  "task_id": "CT-AB-3-001",
+  "template_id": "CT-AB-3",
+  "tool_calls": []
+}

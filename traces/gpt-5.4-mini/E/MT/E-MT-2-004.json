@@ -1,0 +1,23 @@
+{
+  "agent_id": "gpt-5.4-mini",
+  "final_response": "Priya Nair has been invited to the Helio Planning Review.",
+  "task_id": "E-MT-2-004",
+  "template_id": "E-MT-2",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "priya@vendor.com"
+        ],
+        "id": "EVT-E_MT_2_004",
+        "time": "Apr 29 13:00",
+        "title": "Helio Planning Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

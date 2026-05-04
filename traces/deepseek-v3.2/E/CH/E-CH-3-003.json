@@ -1,0 +1,22 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Email sent to Sam Rivera with the status update about the data export investigation.",
+  "task_id": "E-CH-3-003",
+  "template_id": "E-CH-3",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Sam,\n\nThis is a status update regarding the data export investigation. The investigation is still in progress, and we will provide another update today.\n\nBest regards",
+        "subject": "Status Update: Data Export Investigation",
+        "to": [
+          "sam@partner.com"
+        ]
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "The priority of ticket **T-I_MT_2_004** (\"Push notification bug - mobile\") has been set to **high**.",
+  "task_id": "I-MT-2-004",
+  "template_id": "I-MT-2",
+  "tool_calls": [
+    {
+      "action": "set_priority",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "User requested setting the priority of the mobile push notification bug ticket to high"
+        },
+        "id": "T-I_MT_2_004",
+        "priority": "high"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

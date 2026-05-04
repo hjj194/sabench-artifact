@@ -1,0 +1,7 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "I'll help you forward Alice's contract email from the vendor to Priya Nair. However, I need some clarification to proceed correctly.\n\nI can see two emails from \"alice@vendor.com\" in the inbox:\n1. \"Contract - Version A\" \n2. \"Contract - Version B\"\n\nWhich specific contract email would you like me to forward to Priya Nair? Or would you like me to forward both? Also, would you like me to include any additional message in the forwarded email?",
+  "task_id": "I-AB-3-004",
+  "template_id": "I-AB-3",
+  "tool_calls": []
+}

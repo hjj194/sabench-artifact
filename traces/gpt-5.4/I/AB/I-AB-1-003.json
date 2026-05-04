@@ -1,0 +1,18 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "I found two unread emails from Alice with the subject \u201cRenewal update\u201d today, so I\u2019m not sure which one you want me to reply to \u2014 the 9:00 AM one or the 3:00 PM one?",
+  "task_id": "I-AB-1-003",
+  "template_id": "I-AB-1",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "subject:\"Renewal update\" from:alice@vendor.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

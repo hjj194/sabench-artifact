@@ -1,0 +1,29 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "The \"Webhook Retry follow-up\" ticket has been closed successfully.",
+  "task_id": "D-OR-2-002",
+  "template_id": "D-OR-2",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Webhook Retry follow-up"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-child-D_OR_2_002",
+        "status": "closed"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

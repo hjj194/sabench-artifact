@@ -1,0 +1,23 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Done! I've replied to the \"April true-up exception\" email from finance, letting them know you saw it and will review it this afternoon.",
+  "task_id": "I-CH-1-005",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "body": "Hi, I saw this and will review it this afternoon. Thanks!",
+        "fields": {
+          "reason": "Replying to the April true-up exception email from finance to acknowledge receipt and indicate review this afternoon"
+        },
+        "id": "e_invoice_I_CH_1_005"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. I've forwarded the Q3 Plan email thread from Alice at the vendor to Morgan Lee.",
+  "task_id": "D-AB-2-003",
+  "template_id": "D-AB-2",
+  "tool_calls": [
+    {
+      "action": "forward",
+      "agent_message": "",
+      "args": {
+        "thread_id": "THR-D_AB_2_003",
+        "to": "manager@co.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

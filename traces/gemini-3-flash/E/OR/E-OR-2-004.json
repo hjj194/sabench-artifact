@@ -1,0 +1,23 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've scheduled the Helio client call with Priya Nair for April 29, 2026, at 1:00 PM.",
+  "task_id": "E-OR-2-004",
+  "template_id": "E-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "priya@vendor.com"
+        ],
+        "duration": 30,
+        "time": "2026-04-29T13:00:00",
+        "title": "Helio client call"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

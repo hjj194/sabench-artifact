@@ -1,0 +1,20 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. Created \"Planning Sync\" on April 22 at 10:00 AM.",
+  "task_id": "I-CH-3-002",
+  "template_id": "I-CH-3",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "date": "Apr 22",
+        "time": "10:00",
+        "title": "Planning Sync"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

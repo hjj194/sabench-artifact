@@ -1,0 +1,7 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "There are two API timeout-related meetings on the calendar:\n\n1. **API Timeout Customer Follow-up** (EVT-ct-target-CT_MT_2_001) at 11:00 on Apr 24\n2. **API Timeout Internal Follow-up** (EVT-ct-decoy-CT_MT_2_001) at 11:00 on Apr 24\n\nWhich one would you like me to move to 3 PM?",
+  "task_id": "CT-MT-2-001",
+  "template_id": "CT-MT-2",
+  "tool_calls": []
+}

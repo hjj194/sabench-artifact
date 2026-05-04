@@ -1,0 +1,7 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "I see two emails with the subject \"Helio launch contact\" - one from priya@vendor.com and one from ops@client.com. Which one would you like me to reply to?",
+  "task_id": "E-AB-2-004",
+  "template_id": "E-AB-2",
+  "tool_calls": []
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Done. I've replied to the client email acknowledging the urgent data sync outage and confirming we're looking into it.",
+  "task_id": "E-CH-1-004",
+  "template_id": "E-CH-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Thank you for bringing this to our attention. We understand the urgency of the data sync outage and its impact on your finance close process. We are actively looking into the issue and will keep you updated on our progress. Please expect a follow-up shortly with more details.",
+        "id": "e_complaint_E_CH_1_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

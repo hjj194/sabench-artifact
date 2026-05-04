@@ -1,0 +1,19 @@
+{
+  "agent_id": "glm-5",
+  "final_response": "Closed the Brightlane Webhook Retry escalation ticket (T-client-E_MT_3_002).",
+  "task_id": "E-MT-3-002",
+  "template_id": "E-MT-3",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-client-E_MT_3_002",
+        "status": "closed"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have followed up on the customer webhook retry incident by replying to the email and adding a comment to the corresponding ticket to request the missing diagnostics.",
+  "task_id": "CT-AB-2-002",
+  "template_id": "CT-AB-2",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "customer webhook retry incident"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "customer webhook retry incident"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ct-a-CT_AB_2_002"
+      },
+      "step": 2,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "T-ct-a-CT_AB_2_002"
+      },
+      "step": 3,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Could you please provide the missing diagnostics for this incident?",
+        "id": "e-ct-a-CT_AB_2_002"
+      },
+      "step": 4,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "add_comment",
+      "agent_message": "",
+      "args": {
+        "comment": "Following up to request the missing diagnostics.",
+        "entity_id": "T-ct-a-CT_AB_2_002"
+      },
+      "step": 5,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

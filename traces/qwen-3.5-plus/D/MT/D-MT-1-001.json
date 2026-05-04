@@ -1,0 +1,25 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "Done. This week's team standup (Apr 22) has been moved to 10:00 AM.",
+  "task_id": "D-MT-1-001",
+  "template_id": "D-MT-1",
+  "tool_calls": [
+    {
+      "action": "modify_occurrence",
+      "agent_message": "",
+      "args": {
+        "attendees": [
+          "alice@co.com",
+          "bob@co.com",
+          "carol@co.com"
+        ],
+        "id": "STD-D_MT_1_001",
+        "time": "10:00",
+        "title": "Weekly Team Standup"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

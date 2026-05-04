@@ -1,0 +1,28 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "I found two emails with subject \u201cHelio launch contact\u201d \u2014 one from Priya at vendor.com and one from ops@client.com. Which one should I reply to?",
+  "task_id": "E-AB-2-004",
+  "template_id": "E-AB-2",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ext-a-E_AB_2_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ext-b-E_AB_2_004"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

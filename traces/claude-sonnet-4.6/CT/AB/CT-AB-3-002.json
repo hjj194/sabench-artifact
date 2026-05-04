@@ -1,0 +1,7 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "There are two \"Brightlane Customer Sync\" events scheduled (Apr 27 and Apr 30). Should I move both to 10:30 AM, or just one of them?",
+  "task_id": "CT-AB-3-002",
+  "template_id": "CT-AB-3",
+  "tool_calls": []
+}

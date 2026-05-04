@@ -1,0 +1,20 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Email sent to the stakeholders distribution list.",
+  "task_id": "E-AB-1-001",
+  "template_id": "E-AB-1",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "Hi stakeholders,\n\nThe updated deck is now ready for your review. Please take a look and share any feedback.\n\nThanks!",
+        "title": "Updated Deck Ready for Review",
+        "to": "dl-internal-E_AB_1_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

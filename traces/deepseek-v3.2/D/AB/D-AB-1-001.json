@@ -1,0 +1,26 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "The April 22 Weekly Standup occurrence has been successfully cancelled.",
+  "task_id": "D-AB-1-001",
+  "template_id": "D-AB-1",
+  "tool_calls": [
+    {
+      "action": "list",
+      "agent_message": "",
+      "args": {},
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "id": "STD-occ-D_AB_1_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

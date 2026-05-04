@@ -1,0 +1,7 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "I see there are two contract emails from Alice at the vendor in your inbox:\n1. \"Contract - Version A\"\n2. \"Contract - Version B\"\n\nWhich one would you like me to forward to Priya Nair?",
+  "task_id": "I-AB-3-002",
+  "template_id": "I-AB-3",
+  "tool_calls": []
+}

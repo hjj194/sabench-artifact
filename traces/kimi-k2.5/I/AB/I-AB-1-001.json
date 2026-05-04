@@ -1,0 +1,28 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "There are two emails from Alice with the subject \"Contract update\". Which one should I reply to - the one from Apr 21 09:00 or the one from Apr 21 15:00?",
+  "task_id": "I-AB-1-001",
+  "template_id": "I-AB-1",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_A_I_AB_1_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e_B_I_AB_1_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

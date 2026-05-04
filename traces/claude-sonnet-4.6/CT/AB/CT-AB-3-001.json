@@ -1,0 +1,7 @@
+{
+  "agent_id": "claude-sonnet-4.6",
+  "final_response": "There are two \"Acme Customer Sync\" events (Apr 24 and Apr 30). Should I move both to 3 PM, or just one of them?",
+  "task_id": "CT-AB-3-001",
+  "template_id": "CT-AB-3",
+  "tool_calls": []
+}

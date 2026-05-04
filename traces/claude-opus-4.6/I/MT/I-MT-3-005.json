@@ -1,0 +1,22 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Done! Tuesday's (Apr 22) Support Standup has been cancelled.",
+  "task_id": "I-MT-3-005",
+  "template_id": "I-MT-3",
+  "tool_calls": [
+    {
+      "action": "cancel_occurrence",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "User requested to cancel Tuesday's Support Standup (Apr 22)"
+        },
+        "id": "evt-standup-apr22-I_MT_3_005"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

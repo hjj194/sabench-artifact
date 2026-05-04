@@ -1,0 +1,19 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. Priya Nair (priya@vendor.com) has been invited to the Helio Planning Review event.",
+  "task_id": "E-MT-2-004",
+  "template_id": "E-MT-2",
+  "tool_calls": [
+    {
+      "action": "invite",
+      "agent_message": "",
+      "args": {
+        "id": "EVT-E_MT_2_004",
+        "to": "priya@vendor.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

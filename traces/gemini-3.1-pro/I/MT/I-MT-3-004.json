@@ -1,0 +1,18 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Could you please clarify if Tuesday's Release Standup is on April 22 or April 23?",
+  "task_id": "I-MT-3-004",
+  "template_id": "I-MT-3",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Release Standup"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

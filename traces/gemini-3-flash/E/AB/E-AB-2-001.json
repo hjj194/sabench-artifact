@@ -1,0 +1,28 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "I've found two emails with the subject \"Acme launch contact,\" one from Priya Nair (priya@vendor.com) and another from ops@client.com. Which one should I reply to?",
+  "task_id": "E-AB-2-001",
+  "template_id": "E-AB-2",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ext-a-E_AB_2_001"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ext-b-E_AB_2_001"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "Done. Event scheduled for Apr 29, 2026 at 9:00 AM (30 minutes).",
+  "task_id": "CT-OR-2-004",
+  "template_id": "CT-OR-2",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "duration": 30,
+        "query": "Apr 29, 2026",
+        "status": "scheduled",
+        "time": "09:00",
+        "title": "Personal follow-up: Login Loop follow-up"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

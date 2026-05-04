@@ -1,0 +1,20 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "Scheduled: Launch Review on April 22, 2026 at 10:00 AM.",
+  "task_id": "I-OR-3-004",
+  "template_id": "I-OR-3",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "duration": 60,
+        "time": "2026-04-22 10:00",
+        "title": "Launch Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

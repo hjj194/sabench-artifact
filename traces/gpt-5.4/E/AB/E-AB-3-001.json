@@ -1,0 +1,7 @@
+{
+  "agent_id": "gpt-5.4",
+  "final_response": "Which partner team should I invite: the Acme client partner team, the Acme vendor partner team, or Sam Rivera individually?",
+  "task_id": "E-AB-3-001",
+  "template_id": "E-AB-3",
+  "tool_calls": []
+}

@@ -1,0 +1,23 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "Done! The **Launch Review** has been scheduled for **April 23 at 10:00 AM**.",
+  "task_id": "CT-OR-1-004",
+  "template_id": "CT-OR-1",
+  "tool_calls": [
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "User requested scheduling a Launch Review on Apr 23 at 10:00 AM"
+        },
+        "time": "Apr 23 10:00",
+        "title": "Launch Review"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

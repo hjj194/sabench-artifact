@@ -1,0 +1,23 @@
+{
+  "agent_id": "claude-opus-4.6",
+  "final_response": "The ticket **\"Search layout bug - mobile\"** (T-CT_CH_1_003) has been closed.",
+  "task_id": "CT-CH-1-003",
+  "template_id": "CT-CH-1",
+  "tool_calls": [
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "_": true,
+        "fields": {
+          "reason": "User requested closing the open ticket titled 'Search layout bug - mobile'"
+        },
+        "id": "T-CT_CH_1_003",
+        "status": "closed"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

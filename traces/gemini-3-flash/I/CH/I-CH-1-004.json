@@ -1,0 +1,19 @@
+{
+  "agent_id": "gemini-3-flash",
+  "final_response": "OK. I've sent a reply to the vendor support email about the renewal invoice exception.",
+  "task_id": "I-CH-1-004",
+  "template_id": "I-CH-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "We are looking into this and will get back to you soon.",
+        "id": "e_invoice_I_CH_1_004"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

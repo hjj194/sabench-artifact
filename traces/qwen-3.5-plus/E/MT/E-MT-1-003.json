@@ -1,0 +1,20 @@
+{
+  "agent_id": "qwen-3.5-plus",
+  "final_response": "Reply sent to Sam Rivera confirming receipt and that we'll review the Northstar data export update today.",
+  "task_id": "E-MT-1-003",
+  "template_id": "E-MT-1",
+  "tool_calls": [
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Sam,\n\nWe received the Northstar data export update and will review it today.\n\nThanks,",
+        "id": "e-ext-target-E_MT_1_003",
+        "to": "[\"sam@partner.com\"]"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

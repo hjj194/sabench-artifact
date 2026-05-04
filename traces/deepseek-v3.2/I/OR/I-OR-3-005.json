@@ -1,0 +1,32 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "Support Handoff has been scheduled for April 22 at 10:00 AM.",
+  "task_id": "I-OR-3-005",
+  "template_id": "I-OR-3",
+  "tool_calls": [
+    {
+      "action": "check_conflicts",
+      "agent_message": "",
+      "args": {
+        "duration": 60,
+        "time": "Apr 22 10:00 AM"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "calendar"
+    },
+    {
+      "action": "create",
+      "agent_message": "",
+      "args": {
+        "description": "Support team handoff meeting",
+        "duration": 60,
+        "time": "Apr 22 10:00 AM",
+        "title": "Support Handoff"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "calendar"
+    }
+  ]
+}

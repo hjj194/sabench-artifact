@@ -1,0 +1,29 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "The Data Export follow-up ticket has been successfully closed.",
+  "task_id": "D-OR-2-003",
+  "template_id": "D-OR-2",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Data Export follow-up"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "ticket"
+    },
+    {
+      "action": "update_status",
+      "agent_message": "",
+      "args": {
+        "id": "T-child-D_OR_2_003",
+        "status": "closed"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

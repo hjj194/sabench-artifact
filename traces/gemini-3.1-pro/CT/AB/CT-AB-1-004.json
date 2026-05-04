@@ -1,0 +1,7 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Could you please clarify if you would like me to reply to the email from client@client.com regarding the \"Data sync failure\", or update the ticket \"Data sync investigation\"?",
+  "task_id": "CT-AB-1-004",
+  "template_id": "CT-AB-1",
+  "tool_calls": []
+}

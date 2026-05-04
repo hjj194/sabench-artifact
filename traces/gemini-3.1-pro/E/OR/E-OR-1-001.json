@@ -1,0 +1,28 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "Are we still on track with the Northstar rollout? I need to know the current status so I can reply to the email.",
+  "task_id": "E-OR-1-001",
+  "template_id": "E-OR-1",
+  "tool_calls": [
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Northstar rollout status"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "search",
+      "agent_message": "",
+      "args": {
+        "query": "Northstar"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "ticket"
+    }
+  ]
+}

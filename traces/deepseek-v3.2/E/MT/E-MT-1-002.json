@@ -1,0 +1,29 @@
+{
+  "agent_id": "deepseek-v3.2",
+  "final_response": "I've successfully replied to Riley Stone's email about the Brightlane webhook retry update, confirming that we received it and will review it today.",
+  "task_id": "E-MT-1-002",
+  "template_id": "E-MT-1",
+  "tool_calls": [
+    {
+      "action": "fetch",
+      "agent_message": "",
+      "args": {
+        "id": "e-ext-target-E_MT_1_002"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    },
+    {
+      "action": "reply",
+      "agent_message": "",
+      "args": {
+        "body": "Hi Riley,\n\nWe've received your Brightlane webhook retry update and will review it today.\n\nThank you for sending this over.\n\nBest regards",
+        "id": "e-ext-target-E_MT_1_002"
+      },
+      "step": 1,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

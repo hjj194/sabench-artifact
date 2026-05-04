@@ -1,0 +1,20 @@
+{
+  "agent_id": "gemini-3.1-pro",
+  "final_response": "I have sent the status update email to Riley Stone.",
+  "task_id": "E-CH-3-002",
+  "template_id": "E-CH-3",
+  "tool_calls": [
+    {
+      "action": "send",
+      "agent_message": "",
+      "args": {
+        "body": "The webhook retry investigation is still in progress and we will update today.",
+        "title": "Status update: Webhook retry investigation",
+        "to": "riley@client.com"
+      },
+      "step": 0,
+      "success": true,
+      "tool": "email"
+    }
+  ]
+}

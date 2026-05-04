@@ -1,0 +1,7 @@
+{
+  "agent_id": "kimi-k2.5",
+  "final_response": "There are two open tickets titled \"API timeout issue\" - one assigned to Alice (T-A-I_AB_2_001) and one assigned to Bob (T-B-I_AB_2_001). Which one would you like me to assign to Carol?",
+  "task_id": "I-AB-2-001",
+  "template_id": "I-AB-2",
+  "tool_calls": []
+}
