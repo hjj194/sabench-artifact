@@ -1,22 +1,25 @@
-# SABench Artifact
+# SABench
 
-This repository contains the anonymous artifact for SABench, a benchmark for
-side-effect-aware evaluation of tool-using language model agents.
+Code and evaluation traces for **SABench** (Side-effect-Aware Benchmark), a
+benchmark for side-effect-aware evaluation of tool-using language model agents.
 
-The canonical dataset metadata and tabular task dataset are hosted separately:
+> Jiaju Huang, Shaobin Chen, Xinglong Liang, Xinyu Ma, Hao Yang, Wei Ke, Tao Tan, Yue Sun.
+> *Task Success Is Not Enough: Side-effect-Aware Evaluation of Tool-Using Language Model Agents.*
+> NeurIPS 2026, Track on Evaluations and Datasets.
 
-- Dataset URL: https://huggingface.co/datasets/anon-sabench-2026/sabench
-- Croissant file for OpenReview: `croissant.json`
+- Dataset (201 tasks, `tasks.jsonl`) and Croissant metadata: https://huggingface.co/datasets/Phaedrus/sabench
+- Code and traces: https://github.com/hjj194/sabench-artifact
 
 ## Contents
 
 - `sabench_re/`: task loading, tool schema, state replay, and deterministic oracle.
 - `scripts/run_pilot_streaming.py`: OpenAI-compatible agent runner.
 - `scripts/oracle_verify.py`: verify one task/trace pair.
-- `traces/`: saved tool-call traces for the paper experiments.
+- `traces/`: saved tool-call traces for the paper experiments
+  (11 models x 201 tasks = 2,211 traces).
 
 The benchmark tasks are hosted in the Hugging Face dataset repo as `tasks.jsonl`.
-This artifact repository contains the code and saved model traces.
+This repository contains the code and saved model traces.
 
 ## Installation
 
@@ -53,3 +56,27 @@ python scripts/run_pilot_streaming.py \
 Multiple agents can be supplied as a comma-separated list. The runner writes raw
 tool-call traces, oracle reports, and CSV/JSON summaries under the selected
 results directory.
+
+## License
+
+- Code (`sabench_re/`, `scripts/`): [MIT](LICENSE).
+- Traces (`traces/`) and the Hugging Face dataset: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+All names, email addresses, organizations, and workspace records in the tasks
+and traces are synthetic.
+
+## Citation
+
+```bibtex
+@inproceedings{huang2026sabench,
+  title     = {Task Success Is Not Enough: Side-effect-Aware Evaluation of Tool-Using Language Model Agents},
+  author    = {Huang, Jiaju and Chen, Shaobin and Liang, Xinglong and Ma, Xinyu and Yang, Hao and Ke, Wei and Tan, Tao and Sun, Yue},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Track on Evaluations and Datasets},
+  year      = {2026}
+}
+```
+
+## Contact
+
+Jiaju Huang (hjj194@gmail.com). Corresponding authors: Tao Tan (taotan@mpu.edu.mo)
+and Yue Sun (yuesun@mpu.edu.mo).

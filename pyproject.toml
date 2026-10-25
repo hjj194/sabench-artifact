@@ -1,17 +1,32 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "sabench-re"
-version = "0.1.0"
+version = "1.0.0"
 description = "SABENCH_RE: task generation and deterministic oracle verification for collateral damage in stateful agents."
 requires-python = ">=3.11"
+license = "MIT"
+authors = [
+  { name = "Jiaju Huang", email = "hjj194@gmail.com" },
+  { name = "Shaobin Chen" },
+  { name = "Xinglong Liang" },
+  { name = "Xinyu Ma" },
+  { name = "Hao Yang" },
+  { name = "Wei Ke" },
+  { name = "Tao Tan", email = "taotan@mpu.edu.mo" },
+  { name = "Yue Sun", email = "yuesun@mpu.edu.mo" },
+]
 dependencies = []
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
 openai = ["openai>=1.0"]
+
+[project.urls]
+Homepage = "https://github.com/hjj194/sabench-artifact"
+Dataset = "https://huggingface.co/datasets/Phaedrus/sabench"
 
 [tool.setuptools.packages.find]
 where = ["."]
